@@ -1,0 +1,30 @@
+# ================================================
+# .htaccess — WordPress blog subfolder
+# https://leticiafreitaspsi.com.br/blog/
+#
+# This file will be replaced/updated automatically
+# when WordPress is installed in this folder.
+# ================================================
+
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /blog/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /blog/index.php [L]
+</IfModule>
+# END WordPress
+
+# Security: block access to sensitive files
+<FilesMatch "(wp-config\.php|readme\.html|license\.txt|\.git)">
+  Order allow,deny
+  Deny from all
+</FilesMatch>
+
+# Disable directory listing
+Options -Indexes
