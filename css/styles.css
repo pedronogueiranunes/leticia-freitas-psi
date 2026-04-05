@@ -61,6 +61,17 @@ nav {
   text-decoration: none;
   flex-shrink: 0;
 }
+.logo-img {
+  height: 36px;
+  width: auto;
+  display: block;
+}
+.footer-logo-img {
+  height: 36px;
+  width: auto;
+  display: block;
+  margin-bottom: 4px;
+}
 .logo-icon {
   width: 43px;
   height: 43px;
