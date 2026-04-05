@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidade — Letícia Freitas Psicóloga</title>
+  <meta name="description" content="Política de Privacidade do site da Psicóloga Letícia Freitas (CRP 03/21534). Saiba como seus dados são tratados conforme a LGPD.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://leticiafreitaspsi.com.br/politica-de-privacidade/">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+  <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --green: #4A7B5E;
+      --green-dark: #2d5540;
+      --green-light: #edf4ef;
+      --bg: #f5faf6;
+      --border: #cce4d4;
+      --text: #1a2e25;
+      --text-mid: #3d5e4e;
+      --text-light: #7aa898;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    /* ── Header ── */
+    header {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      padding: 18px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.1rem;
+      color: var(--text);
+      text-decoration: none;
+      font-style: italic;
+    }
+    .logo span { color: var(--green); font-style: normal; }
+    .back-link {
+      font-size: 0.85rem;
+      color: var(--green);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    .back-link:hover { color: var(--green-dark); }
+
+    /* ── Hero banner ── */
+    .hero {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      padding: 56px 32px 48px;
+      text-align: center;
+    }
+    .badge {
+      display: inline-block;
+      background: var(--green-light);
+      color: var(--green);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      padding: 5px 14px;
+      border-radius: 50px;
+      margin-bottom: 20px;
+    }
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      color: var(--text);
+      margin-bottom: 12px;
+    }
+    .hero h1 em { color: var(--green); font-style: italic; }
+    .hero p {
+      color: var(--text-mid);
+      font-size: 0.95rem;
+      max-width: 520px;
+      margin: 0 auto;
+    }
+    .update-tag {
+      display: inline-block;
+      margin-top: 18px;
+      background: var(--green-light);
+      color: var(--text-light);
+      font-size: 0.78rem;
+      padding: 4px 12px;
+      border-radius: 50px;
+    }
+
+    /* ── Content ── */
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 56px 24px 80px;
+    }
+
+    .section {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 36px 40px;
+      margin-bottom: 24px;
+    }
+
+    .section-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      background: var(--green-light);
+      color: var(--green);
+      font-size: 0.8rem;
+      font-weight: 700;
+      border-radius: 50%;
+      margin-bottom: 14px;
+    }
+
+    .section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.25rem;
+      color: var(--text);
+      margin-bottom: 14px;
+    }
+
+    .section p {
+      color: var(--text-mid);
+      font-size: 0.93rem;
+      margin-bottom: 12px;
+    }
+    .section p:last-child { margin-bottom: 0; }
+
+    .section ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 14px;
+    }
+    .section ul li {
+      color: var(--text-mid);
+      font-size: 0.93rem;
+      padding: 6px 0 6px 20px;
+      position: relative;
+      border-bottom: 1px solid var(--green-light);
+    }
+    .section ul li:last-child { border-bottom: none; }
+    .section ul li::before {
+      content: "·";
+      position: absolute;
+      left: 6px;
+      color: var(--green);
+      font-weight: 700;
+      font-size: 1.2rem;
+      line-height: 1.2;
+    }
+
+    .highlight-box {
+      background: var(--green-light);
+      border-left: 3px solid var(--green);
+      border-radius: 0 12px 12px 0;
+      padding: 16px 20px;
+      margin: 16px 0;
+    }
+    .highlight-box p {
+      color: var(--text-mid);
+      font-size: 0.88rem;
+      margin: 0;
+    }
+    .highlight-box strong { color: var(--green); }
+
+    /* ── Contact section ── */
+    .contact-section {
+      background: var(--green);
+      border-radius: 20px;
+      padding: 40px;
+      text-align: center;
+      color: #fff;
+      margin-bottom: 24px;
+    }
+    .contact-section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+    }
+    .contact-section p {
+      font-size: 0.9rem;
+      opacity: 0.85;
+      margin-bottom: 20px;
+    }
+    .btn-contact {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #fff;
+      color: var(--green);
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      transition: opacity 0.2s;
+    }
+    .btn-contact:hover { opacity: 0.9; }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-light);
+      font-size: 0.8rem;
+      border-top: 1px solid var(--border);
+    }
+    footer a { color: var(--green); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    @media (max-width: 600px) {
+      .section { padding: 28px 22px; }
+      .hero { padding: 40px 20px 36px; }
+      header { padding: 16px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <a href="../" class="logo">Letícia <span>Freitas</span> · Psi</a>
+    <a href="../" class="back-link">
+      <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+      Voltar ao site
+    </a>
+  </header>
+
+  <!-- Hero -->
+  <div class="hero">
+    <span class="badge">Privacidade &amp; LGPD</span>
+    <h1>Política de <em>Privacidade</em></h1>
+    <p>Aqui você encontra, de forma clara e objetiva, como suas informações são tratadas neste site.</p>
+    <span class="update-tag">Última atualização: abril de 2026</span>
+  </div>
+
+  <!-- Content -->
+  <div class="container">
+
+    <!-- 1 -->
+    <div class="section">
+      <div class="section-number">1</div>
+      <h2>Quem somos</h2>
+      <p>Este site pertence à <strong>Letícia Freitas</strong>, psicóloga clínica registrada no Conselho Regional de Psicologia da Bahia sob o <strong>CRP 03/21534</strong>.</p>
+      <p>Responsável pelo tratamento dos seus dados:<br>
+        <strong>Letícia Freitas</strong> — psi.leticiafreitas@hotmail.com<br>
+        Site: leticiafreitaspsi.com.br
+      </p>
+      <div class="highlight-box">
+        <p>Esta Política de Privacidade está em conformidade com a <strong>Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018)</strong> e com as resoluções do Conselho Federal de Psicologia.</p>
+      </div>
+    </div>
+
+    <!-- 2 -->
+    <div class="section">
+      <div class="section-number">2</div>
+      <h2>Quais dados coletamos</h2>
+      <p>Coletamos apenas os dados estritamente necessários para o funcionamento deste site e para o contato com você.</p>
+      <ul>
+        <li><strong>Dados de contato:</strong> nome e número de telefone/WhatsApp, quando você inicia uma conversa pelo botão de agendamento.</li>
+        <li><strong>Dados de navegação:</strong> endereço IP, tipo de navegador, páginas visitadas e tempo de acesso — coletados automaticamente para fins de análise de tráfego.</li>
+        <li><strong>Cookies técnicos:</strong> pequenos arquivos que garantem o funcionamento correto do site (preferência de idioma, por exemplo). Não utilizamos cookies de rastreamento de terceiros para publicidade.</li>
+      </ul>
+      <p>Este site <strong>não realiza consultas, anamneses ou coleta de dados clínicos</strong> online. Todo o processo terapêutico ocorre em ambiente seguro e sigiloso, conforme o Código de Ética do Psicólogo e a Resolução CFP nº 11/2018.</p>
+    </div>
+
+    <!-- 3 -->
+    <div class="section">
+      <div class="section-number">3</div>
+      <h2>Por que usamos seus dados</h2>
+      <p>Seus dados são utilizados para as seguintes finalidades:</p>
+      <ul>
+        <li>Responder às suas mensagens e solicitações de agendamento via WhatsApp.</li>
+        <li>Enviar informações sobre os serviços, caso você tenha solicitado.</li>
+        <li>Melhorar a experiência de navegação neste site (dados de acesso anônimos).</li>
+        <li>Cumprir obrigações legais quando exigido pela legislação brasileira.</li>
+      </ul>
+      <p>Seus dados <strong>nunca serão vendidos, alugados ou compartilhados</strong> com terceiros para fins comerciais ou de marketing.</p>
+    </div>
+
+    <!-- 4 -->
+    <div class="section">
+      <div class="section-number">4</div>
+      <h2>Base legal para o tratamento</h2>
+      <p>O tratamento dos seus dados se baseia nas seguintes hipóteses previstas na LGPD (Art. 7º):</p>
+      <ul>
+        <li><strong>Consentimento (Art. 7º, I):</strong> ao entrar em contato pelo WhatsApp ou preencher qualquer formulário, você consente com o uso dos seus dados para os fins indicados.</li>
+        <li><strong>Legítimo interesse (Art. 7º, IX):</strong> para análise de navegação e melhoria do site, de forma proporcional e sem prejudicar seus direitos.</li>
+        <li><strong>Cumprimento de obrigação legal (Art. 7º, II):</strong> quando exigido por lei ou autoridades competentes.</li>
+      </ul>
+    </div>
+
+    <!-- 5 -->
+    <div class="section">
+      <div class="section-number">5</div>
+      <h2>Por quanto tempo guardamos seus dados</h2>
+      <p>Os dados de contato (nome e telefone) são mantidos apenas pelo período necessário para a prestação dos serviços ou enquanto houver uma relação terapêutica ativa.</p>
+      <p>Os registros de sessões são armazenados conforme as exigências do Conselho Federal de Psicologia e da legislação aplicável, geralmente por, no mínimo, 5 (cinco) anos após o encerramento do atendimento.</p>
+      <p>Dados de navegação (logs) são excluídos automaticamente em até 12 meses.</p>
+    </div>
+
+    <!-- 6 -->
+    <div class="section">
+      <div class="section-number">6</div>
+      <h2>Sigilo profissional</h2>
+      <div class="highlight-box">
+        <p><strong>O sigilo é um pilar ético inegociável da psicologia.</strong> Toda e qualquer informação compartilhada durante o atendimento psicológico está protegida pelo segredo profissional, conforme o Art. 9º do Código de Ética Profissional do Psicólogo e a Resolução CFP nº 11/2018. Essas informações jamais serão divulgadas a terceiros, salvo nos casos expressamente previstos em lei (como risco iminente de vida).</p>
+      </div>
+    </div>
+
+    <!-- 7 -->
+    <div class="section">
+      <div class="section-number">7</div>
+      <h2>Seus direitos como titular dos dados</h2>
+      <p>De acordo com os Arts. 17 a 22 da LGPD, você tem o direito de:</p>
+      <ul>
+        <li>Confirmar se seus dados estão sendo tratados e solicitar acesso a eles.</li>
+        <li>Corrigir dados incompletos, inexatos ou desatualizados.</li>
+        <li>Solicitar a exclusão dos seus dados, quando não houver obrigação legal de guarda.</li>
+        <li>Revogar o consentimento a qualquer momento.</li>
+        <li>Solicitar a portabilidade dos seus dados para outro fornecedor de serviço.</li>
+        <li>Obter informações sobre com quem seus dados foram compartilhados.</li>
+      </ul>
+      <p>Para exercer qualquer um desses direitos, entre em contato pelo e-mail <strong>psi.leticiafreitas@hotmail.com</strong> ou pelo WhatsApp. Respondemos em até 15 dias úteis.</p>
+    </div>
+
+    <!-- 8 -->
+    <div class="section">
+      <div class="section-number">8</div>
+      <h2>Links para outros sites</h2>
+      <p>Este site pode conter links para redes sociais (Instagram, por exemplo) e para o WhatsApp Business. Ao acessar esses links, você estará sujeito às políticas de privacidade dessas plataformas, sobre as quais não temos controle.</p>
+    </div>
+
+    <!-- 9 -->
+    <div class="section">
+      <div class="section-number">9</div>
+      <h2>Segurança dos dados</h2>
+      <p>Adotamos medidas técnicas e organizacionais adequadas para proteger seus dados contra acesso não autorizado, perda ou divulgação indevida, incluindo o uso de protocolo HTTPS em todo o site.</p>
+      <p>Em caso de incidente de segurança que possa afetar seus dados, você será informado conforme determinado pela LGPD e pela Autoridade Nacional de Proteção de Dados (ANPD).</p>
+    </div>
+
+    <!-- 10 -->
+    <div class="section">
+      <div class="section-number">10</div>
+      <h2>Alterações nesta política</h2>
+      <p>Esta Política de Privacidade pode ser atualizada periodicamente. Sempre que houver mudanças relevantes, a data de "Última atualização" no topo desta página será alterada. Recomendamos que você a revise de tempos em tempos.</p>
+    </div>
+
+    <!-- Contact CTA -->
+    <div class="contact-section">
+      <h2>Tem alguma dúvida?</h2>
+      <p>Entre em contato e responderei o mais breve possível.</p>
+      <a href="https://wa.me/5577991105582" class="btn-contact">
+        <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.535 5.858L.057 23.5l5.77-1.507A11.95 11.95 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.85 0-3.587-.502-5.077-1.378l-.361-.215-3.425.895.916-3.32-.235-.374A9.96 9.96 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+        Falar pelo WhatsApp
+      </a>
+    </div>
+
+    <!-- Legal links -->
+    <p style="text-align:center; font-size:0.82rem; color: var(--text-light);">
+      Veja também: <a href="../termos-de-uso/" style="color:var(--green); text-decoration:none; font-weight:500;">Termos de Uso</a>
+    </p>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Letícia Freitas · CRP 03/21534 — Todos os direitos reservados.<br>
+    <a href="../">leticiafreitaspsi.com.br</a> · <a href="../termos-de-uso/">Termos de Uso</a></p>
+  </footer>
+
+</body>
+</html>
