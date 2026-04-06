@@ -1441,3 +1441,33 @@ footer {
 .gsap-init .badge {
   opacity: 0;
 }
+
+/* =========================================
+   SCROLL REVEAL — Intersection Observer
+   ========================================= */
+
+/* Base hidden state — set by JS to avoid FOUC */
+.reveal {
+  opacity: 0;
+  transform: translateY(26px);
+  transition:
+    opacity  0.85s ease-out,
+    transform 0.85s ease-out;
+  transition-delay: var(--reveal-delay, 0ms);
+}
+.reveal.from-left  { transform: translateX(-30px); }
+.reveal.from-right { transform: translateX(30px);  }
+.reveal.from-scale { transform: scale(0.94);        }
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translate(0, 0) scale(1);
+}
+
+/* Respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    transition: opacity 0.3s ease-out;
+    transform: none !important;
+  }
+}
