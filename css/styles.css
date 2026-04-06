@@ -348,6 +348,13 @@ nav {
   object-fit: cover;
   object-position: 50% 15%;
   display: block;
+  scale: 1;
+  transition: scale 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Easter egg — zoom suave na face ao hover, borda inalterada */
+.photo-card:hover .photo-img-wrap img {
+  scale: 1.08;
 }
 
 .online-badge {
