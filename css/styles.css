@@ -1207,6 +1207,19 @@ footer {
 }
 .footer-bottom-links a:hover { color: #7aa898; }
 
+.footer-credit {
+  margin-top: 4px;
+  font-size: 0.75rem;
+  color: #3d5e4e;
+  text-align: left;
+}
+.footer-credit a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-credit a:hover { color: #afd4c0; }
+
 /* =========================================
    RESPONSIVE — tablet ≤ 1024px
    ========================================= */
