@@ -1208,10 +1208,10 @@ footer {
 .footer-bottom-links a:hover { color: #7aa898; }
 
 .footer-credit {
-  margin-top: 16px;
+  margin-top: 4px;
   font-size: 0.75rem;
   color: #3d5e4e;
-  text-align: center;
+  text-align: left;
 }
 .footer-credit a {
   color: #ffffff;
