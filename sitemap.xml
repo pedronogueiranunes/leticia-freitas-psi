@@ -5,43 +5,43 @@
 
   <!-- ================================================
        SITEMAP — Letícia Freitas Psicóloga
-       https://leticiafreitaspsi.com.br/
+       https://leticiafreitaspsi.com/
        Last updated: 2026-04-05
        ================================================ -->
 
   <!-- Homepage (PT-BR default) -->
   <url>
-    <loc>https://leticiafreitaspsi.com.br/</loc>
+    <loc>https://leticiafreitaspsi.com/</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://leticiafreitaspsi.com.br/"/>
-    <xhtml:link rel="alternate" hreflang="en-US" href="https://leticiafreitaspsi.com.br/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://leticiafreitaspsi.com.br/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://leticiafreitaspsi.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://leticiafreitaspsi.com/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leticiafreitaspsi.com/"/>
     <image:image>
-      <image:loc>https://leticiafreitaspsi.com.br/images/leticia-hero.jpg</image:loc>
+      <image:loc>https://leticiafreitaspsi.com/images/leticia-hero.jpg</image:loc>
       <image:title>Letícia Freitas — Psicóloga Online e Presencial</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://leticiafreitaspsi.com.br/images/leticia-sobre.jpg</image:loc>
+      <image:loc>https://leticiafreitaspsi.com/images/leticia-sobre.jpg</image:loc>
       <image:title>Letícia Freitas — Sobre a psicóloga</image:title>
     </image:image>
   </url>
 
   <!-- English version (same page, alternate lang param) -->
   <url>
-    <loc>https://leticiafreitaspsi.com.br/?lang=en</loc>
+    <loc>https://leticiafreitaspsi.com/?lang=en</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://leticiafreitaspsi.com.br/"/>
-    <xhtml:link rel="alternate" hreflang="en-US" href="https://leticiafreitaspsi.com.br/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://leticiafreitaspsi.com.br/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://leticiafreitaspsi.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://leticiafreitaspsi.com/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leticiafreitaspsi.com/"/>
   </url>
 
   <!-- Blog (future WordPress installation) -->
   <url>
-    <loc>https://leticiafreitaspsi.com.br/blog/</loc>
+    <loc>https://leticiafreitaspsi.com/blog/</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

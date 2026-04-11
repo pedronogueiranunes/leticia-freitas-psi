@@ -1,6 +1,6 @@
 # ================================================
 # robots.txt — Letícia Freitas Psicóloga
-# https://leticiafreitaspsi.com.br/
+# https://leticiafreitaspsi.com/
 # ================================================
 
 # Allow all well-behaved crawlers
@@ -21,4 +21,4 @@ Disallow: /tmp/
 Disallow: /.git/
 
 # Sitemap location
-Sitemap: https://leticiafreitaspsi.com.br/sitemap.xml
+Sitemap: https://leticiafreitaspsi.com/sitemap.xml
