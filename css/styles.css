@@ -1209,12 +1209,12 @@ footer {
 
 .footer-credit {
   margin-top: 16px;
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   color: #3d5e4e;
   text-align: center;
 }
 .footer-credit a {
-  color: #7aa898;
+  color: #ffffff;
   text-decoration: none;
   transition: color 0.2s;
 }
