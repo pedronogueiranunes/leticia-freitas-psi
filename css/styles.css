@@ -1230,6 +1230,11 @@ footer {
     height: auto;
     aspect-ratio: 3/4;
   }
+  .photo-img-wrap img {
+    height: 130%;
+    position: relative;
+    top: -15%;
+  }
 
   /* IDENTIFY */
   .cards-grid {
@@ -1259,7 +1264,7 @@ footer {
    ========================================= */
 @media (max-width: 768px) {
   /* NAV */
-  nav { padding: 12px 20px; }
+  nav { padding: 12px 16px; }
   .border-group { padding: 10px 14px; border-radius: 20px; }
   .btn-schedule { padding: 10px 18px; font-size: 0.82rem; }
 
@@ -1307,6 +1312,11 @@ footer {
     height: auto;
     aspect-ratio: 3/4;
   }
+  .about-photo-card img {
+    height: 130%;
+    position: relative;
+    top: -15%;
+  }
   .crp-badge {
     right: auto;
     left: calc(min(280px, 80vw) + 8px);
@@ -1340,6 +1350,7 @@ footer {
   .btn-whatsapp { width: 100%; justify-content: center; }
 
   /* NAV */
+  nav { padding: 8px 8px; }
   .border-group { flex-wrap: wrap; gap: 10px; justify-content: space-between; }
   .nav-right { order: 2; }
   .btn-schedule { font-size: 0.8rem; padding: 10px 16px; }
