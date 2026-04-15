@@ -132,7 +132,7 @@ const TRANSLATIONS = {
     // LOCALIZAÇÃO
     'location.badge': 'Localização',
     'location.title': 'Onde fica o <strong>consultório?</strong>',
-    'location.address': 'Maria Maria Freitas · Psicologia · Centro<br><strong>Vitória da Conquista, BA</strong> · (77) 9 3518-0580',
+    'location.address': 'Maria Maria · Psicologia · Centro<br><strong>Vitória da Conquista, BA</strong> · (77) 9 3518-0580',
     'location.btn': 'Agendar consulta',
 
     // FOOTER
@@ -286,7 +286,7 @@ const TRANSLATIONS = {
     // LOCATION
     'location.badge': 'Location',
     'location.title': 'Where is the <strong>practice?</strong>',
-    'location.address': 'Maria Maria Freitas · Psychology · Downtown<br><strong>Vitória da Conquista, BA</strong> · (77) 9 3518-0580',
+    'location.address': 'Maria Maria · Psychology · Downtown<br><strong>Vitória da Conquista, BA</strong> · (77) 9 3518-0580',
     'location.btn': 'Book a session',
 
     // FOOTER
