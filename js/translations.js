@@ -6,11 +6,12 @@
 const TRANSLATIONS = {
   pt: {
     'meta.title': 'Letícia Freitas | Psicóloga Online e Presencial – Vitória da Conquista',
-    'meta.description': 'Psicóloga especializada em ansiedade, autoestima e saúde emocional. Atendimento online para todo o Brasil e presencial em Vitória da Conquista, BA. CRP 03/21534. Especialista em ACT, DBT e Análise do Comportamento.',
+    'meta.description': 'Psicóloga especializada em ansiedade, autoestima e saúde emocional. Atendimento online em português para brasileiros em Portugal e na Europa, e para todo o Brasil. Presencial em Vitória da Conquista, BA. CRP 03/21534. Especialista em ACT, DBT e Análise do Comportamento.',
 
     // NAV
     'nav.about': 'Sobre',
     'nav.how': 'Como funciona',
+    'nav.europa': 'Atendimento na Europa',
     'nav.approaches': 'Abordagens',
     'nav.contact': 'Contato',
     'nav.cta': 'Agendar consulta',
@@ -110,6 +111,18 @@ const TRANSLATIONS = {
     'process.card4.title': 'AC — Análise do Comportamento',
     'process.card4.desc': 'A Análise do Comportamento estuda como o ambiente, as experiências e as relações moldam o jeito que a gente age, sente e pensa. Em vez de focar só nos sintomas, a AC busca entender o que está por trás dos comportamentos — e o que pode ser mudado. É uma abordagem científica, prática e profundamente humana.',
 
+    // ATENDIMENTO ONLINE — EUROPA
+    'europa.badge': 'Atendimento online · Europa',
+    'europa.title': 'Atendimento online para brasileiros na Europa',
+    'europa.desc': 'Mudar de país não significa recomeçar a terapia do zero — nem se explicar numa língua que ainda não é a sua casa. De Lisboa ao Porto, de Paris a Berlim: a sessão acontece onde você estiver.',
+    'europa.card1.title': 'Terapia em português, sem traduzir a dor',
+    'europa.card1.desc': 'Você não precisa explicar o que é saudade, nem o peso de estar longe de casa. Atendo no seu idioma e no seu contexto — entendo a solidão, a adaptação e a culpa de quem refez a vida do outro lado do oceano.',
+    'europa.card2.title': 'Pague em euros, pela Wise',
+    'europa.card2.desc': 'Sem complicação com câmbio ou cartão internacional: o pagamento das sessões pode ser feito em euros pela Wise. Simples, transparente e no valor que você já conhece.',
+    'europa.card3.title': 'Horários que respeitam o seu fuso',
+    'europa.card3.desc': 'Atendo no horário de Brasília — que, na prática, cai na sua tarde e início de noite na Europa. Encontramos juntos um horário que cabe na sua rotina, sem virar a madrugada.',
+    'europa.btn': 'Marcar primeira conversa',
+
     // SOBRE
     'about.badge': 'Sobre mim',
     'about.title': 'Oi, eu sou a Letícia',
@@ -147,6 +160,7 @@ const TRANSLATIONS = {
     'footer.link4': 'Abordagens',
     'footer.link5': 'Como funciona',
     'footer.link6': 'Contato',
+    'footer.link7': 'Atendimento na Europa',
     'footer.policy1': 'Política de Privacidade',
     'footer.policy2': 'Termos e Condições',
     'footer.hours.label': 'Horários',
@@ -165,6 +179,7 @@ const TRANSLATIONS = {
     // NAV
     'nav.about': 'About',
     'nav.how': 'How it works',
+    'nav.europa': 'Therapy in Europe',
     'nav.approaches': 'Approaches',
     'nav.contact': 'Contact',
     'nav.cta': 'Book a session',
@@ -264,6 +279,18 @@ const TRANSLATIONS = {
     'process.card4.title': 'ABA — Applied Behavior Analysis',
     'process.card4.desc': "Behavioral Analysis studies how the environment, experiences and relationships shape the way we act, feel and think. Instead of focusing only on symptoms, ABA seeks to understand what's behind behaviors — and what can be changed. It's a scientific, practical and deeply human approach.",
 
+    // ONLINE THERAPY — EUROPE
+    'europa.badge': 'Online therapy · Europe',
+    'europa.title': 'Online therapy for Brazilians living in Europe',
+    'europa.desc': "Moving abroad doesn't mean starting therapy from scratch — or explaining yourself in a language that isn't home yet. From Lisbon to Porto, Paris to Berlin: the session happens wherever you are.",
+    'europa.card1.title': 'Therapy in Portuguese, no need to translate the pain',
+    'europa.card1.desc': "You don't have to explain what saudade means, or the weight of being far from home. I work in your language and your context — I understand the loneliness, the adjustment and the guilt of rebuilding your life across the ocean.",
+    'europa.card2.title': 'Pay in euros, via Wise',
+    'europa.card2.desc': 'No hassle with exchange rates or international cards: sessions can be paid in euros through Wise. Simple, transparent and at the price you already know.',
+    'europa.card3.title': 'Hours that respect your time zone',
+    'europa.card3.desc': "I work in Brasília time — which, in practice, falls in your afternoon and early evening in Europe. Together we'll find a time that fits your routine, without staying up late.",
+    'europa.btn': 'Book a first conversation',
+
     // ABOUT
     'about.badge': 'About me',
     'about.title': "Hi, I'm Letícia",
@@ -301,6 +328,7 @@ const TRANSLATIONS = {
     'footer.link4': 'Approaches',
     'footer.link5': 'How it works',
     'footer.link6': 'Contact',
+    'footer.link7': 'Therapy in Europe',
     'footer.policy1': 'Privacy Policy',
     'footer.policy2': 'Terms & Conditions',
     'footer.hours.label': 'Hours',
