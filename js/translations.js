@@ -36,8 +36,8 @@ const TRANSLATIONS = {
     'identify.card2.desc': 'Coração acelerado sem motivo claro. Pensamento que não para. Dificuldade de curtir o presente porque você já tá preocupada com o próximo problema.',
     'identify.card3.title': 'Piloto automático ligado',
     'identify.card3.desc': 'Às vezes você olha pra vida e pensa: "mas é isso?" Tomar decisões que fazem sentido pra você, e não só pros outros, é mais difícil do que parece.',
-    'identify.card4.title': 'Vida que não para em um lugar só',
-    'identify.card4.desc': 'Você mora fora, trabalha remoto ou vive de cidade em cidade — e a terapia presencial nunca encaixa na sua rotina. O atendimento online foi feito pra quem, como você, não pode (ou não quer) se prender a um consultório fixo.',
+    'identify.card4.title': 'Emoções que tomam conta',
+    'identify.card4.desc': 'Uma discussão que sai do controle. Uma tristeza que vira um buraco sem fundo. Sentir tudo com uma intensidade que cansa você e assusta quem tá por perto. Isso tem nome, tem explicação — e tem o que fazer.',
 
     // ABORDAGENS
     'abordagens.badge': 'Como trabalho',
@@ -111,6 +111,23 @@ const TRANSLATIONS = {
     'process.card4.title': 'AC — Análise do Comportamento',
     'process.card4.desc': 'A Análise do Comportamento estuda como o ambiente, as experiências e as relações moldam o jeito que a gente age, sente e pensa. Em vez de focar só nos sintomas, a AC busca entender o que está por trás dos comportamentos — e o que pode ser mudado. É uma abordagem científica, prática e profundamente humana.',
 
+    // FAQ
+    'faq.badge': 'Dúvidas comuns',
+    'faq.title': 'Perguntas frequentes',
+    'faq.desc': 'Separei aqui as perguntas que mais recebo antes do primeiro contato.',
+    'faq.q1.question': 'Quantas sessões eu preciso fazer para começar a sentir diferença?',
+    'faq.q1.answer': 'Isso varia de pessoa para pessoa, porque cada processo é construído de um jeito diferente. Não existe um número fixo nem uma fórmula pronta — o que existe é um acompanhamento pensado especificamente para o seu momento. Na primeira conversa dá pra alinhar expectativas com calma.',
+    'faq.q2.question': 'O atendimento é sigiloso? Alguém vai saber que estou em terapia?',
+    'faq.q2.answer': 'Sim, o sigilo é garantido pelo Código de Ética do Conselho Federal de Psicologia. O que é dito nas sessões fica entre você e eu — inclusive no atendimento online, feito por videochamada em ambiente reservado.',
+    'faq.q3.question': 'Acho que posso ter borderline / TDAH / ansiedade generalizada. Vocês confirmam isso logo na primeira conversa?',
+    'faq.q3.answer': 'Entendo a vontade de ter uma resposta rápida, principalmente depois de pesquisar bastante por conta própria. Mas um diagnóstico não é algo que se dá numa mensagem ou numa primeira sessão — é construído ao longo de um processo de avaliação cuidadoso. O que posso te oferecer desde já é um espaço para conversar sobre o que você tem sentido, sem pressa e sem julgamento.',
+    'faq.q4.question': 'Atende por convênio ou plano de saúde?',
+    'faq.q4.answer': 'O atendimento é particular, sem convênio. Os valores e formas de pagamento (Pix, cartão) são conversados diretamente no primeiro contato.',
+    'faq.q5.question': 'O atendimento online tem a mesma qualidade que o presencial?',
+    'faq.q5.answer': 'Sim. A sessão online acontece por videochamada, com a mesma atenção, sigilo e cuidado técnico de uma sessão presencial — muda o formato, não a qualidade do processo.',
+    'faq.q6.question': 'Preciso morar em Vitória da Conquista para ser atendida?',
+    'faq.q6.answer': 'Não. O atendimento presencial é em Vitória da Conquista, mas o atendimento online alcança qualquer lugar do mundo — sempre em português, respeitando o fuso horário de quem está do outro lado.',
+
     // ATENDIMENTO ONLINE — EUROPA
     'europa.badge': 'Atendimento online · Europa',
     'europa.title': 'Atendimento online para brasileiros na Europa',
@@ -161,6 +178,7 @@ const TRANSLATIONS = {
     'footer.link5': 'Como funciona',
     'footer.link6': 'Contato',
     'footer.link7': 'Atendimento na Europa',
+    'footer.link8': 'FAQ',
     'footer.policy1': 'Política de Privacidade',
     'footer.policy2': 'Termos e Condições',
     'footer.hours.label': 'Horários',
@@ -204,8 +222,8 @@ const TRANSLATIONS = {
     'identify.card2.desc': "Racing heart for no clear reason. Thoughts that won't stop. Difficulty enjoying the present because you're already worried about the next problem.",
     'identify.card3.title': 'Running on autopilot',
     'identify.card3.desc': 'Sometimes you look at your life and think: "is this it?" Making decisions that actually make sense for you — and not just for others — is harder than it seems.',
-    'identify.card4.title': "A life that won't stay in one place",
-    'identify.card4.desc': "You live abroad, work remotely or move from city to city — and in-person therapy never fits your routine. Online sessions were made for people like you, who can't (or don't want to) be tied down to a fixed practice.",
+    'identify.card4.title': 'Emotions that take over',
+    'identify.card4.desc': "An argument that spirals out of control. A sadness that turns into a bottomless pit. Feeling everything with an intensity that exhausts you and scares the people around you. This has a name, an explanation — and something that can be done about it.",
 
     // APPROACHES
     'abordagens.badge': 'How I work',
@@ -279,6 +297,23 @@ const TRANSLATIONS = {
     'process.card4.title': 'ABA — Applied Behavior Analysis',
     'process.card4.desc': "Behavioral Analysis studies how the environment, experiences and relationships shape the way we act, feel and think. Instead of focusing only on symptoms, ABA seeks to understand what's behind behaviors — and what can be changed. It's a scientific, practical and deeply human approach.",
 
+    // FAQ
+    'faq.badge': 'Common questions',
+    'faq.title': 'Frequently asked questions',
+    'faq.desc': "Here are the questions I get most often before the first conversation.",
+    'faq.q1.question': 'How many sessions until I start feeling a difference?',
+    'faq.q1.answer': "This varies from person to person, because every process is built differently. There's no fixed number or ready-made formula — what exists is support designed specifically for where you are right now. The first conversation is a good moment to align expectations.",
+    'faq.q2.question': "Is it confidential? Will anyone know I'm in therapy?",
+    'faq.q2.answer': "Yes, confidentiality is guaranteed by the Code of Ethics of the Federal Council of Psychology. What's shared in session stays between us — including in online sessions, held by video call in a private setting.",
+    'faq.q3.question': 'I think I might have BPD / ADHD / generalized anxiety. Will you confirm that in our first conversation?',
+    'faq.q3.answer': "I understand wanting a quick answer, especially after researching a lot on your own. But a diagnosis isn't something given in a message or a first session — it's built through a careful evaluation process. What I can offer right away is a space to talk about what you've been feeling, without rush and without judgment.",
+    'faq.q4.question': 'Do you accept health insurance?',
+    'faq.q4.answer': 'Sessions are private-pay only, no insurance plans. Rates and payment methods are discussed directly in our first conversation.',
+    'faq.q5.question': 'Is online therapy as effective as in-person?',
+    'faq.q5.answer': "Yes. Online sessions happen by video call, with the same attention, confidentiality and clinical care as an in-person session — the format changes, not the quality of the work.",
+    'faq.q6.question': 'Do I need to live in Vitória da Conquista to be seen?',
+    'faq.q6.answer': 'No. In-person sessions happen in Vitória da Conquista, but online sessions reach anywhere in the world — always in Portuguese, working around the time zone on your end.',
+
     // ONLINE THERAPY — EUROPE
     'europa.badge': 'Online therapy · Europe',
     'europa.title': 'Online therapy for Brazilians living in Europe',
@@ -329,6 +364,7 @@ const TRANSLATIONS = {
     'footer.link5': 'How it works',
     'footer.link6': 'Contact',
     'footer.link7': 'Therapy in Europe',
+    'footer.link8': 'FAQ',
     'footer.policy1': 'Privacy Policy',
     'footer.policy2': 'Terms & Conditions',
     'footer.hours.label': 'Hours',

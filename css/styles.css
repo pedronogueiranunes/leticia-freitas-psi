@@ -498,6 +498,58 @@ nav {
   line-height: 1.75;
 }
 
+.faq-list {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.faq-item {
+  background: var(--cream);
+  border-radius: 16px;
+  padding: 4px 28px;
+  transition: background 0.2s;
+}
+.faq-item[open] {
+  background: #fff;
+  box-shadow: 0 4px 24px rgba(26, 46, 37, 0.08);
+}
+.faq-item summary {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  line-height: 1.4;
+  padding: 20px 40px 20px 0;
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after {
+  content: '+';
+  position: absolute;
+  right: 0;
+  top: 18px;
+  width: 28px; height: 28px;
+  border-radius: 50%;
+  background: #d4eadb;
+  color: var(--text-dark);
+  font-size: 1.1rem;
+  display: flex; align-items: center; justify-content: center;
+  transition: transform 0.2s;
+}
+.faq-item[open] summary::after { content: '−'; }
+.faq-item p {
+  font-size: 0.88rem;
+  color: var(--text-mid);
+  line-height: 1.75;
+  padding-bottom: 24px;
+  margin-top: -6px;
+}
+
 /* =========================================
    ABORDAGENS
    ========================================= */
