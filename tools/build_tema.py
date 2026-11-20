@@ -4,6 +4,10 @@ Uso: python3 tools/build_tema.py
 import json, os, sys, urllib.parse
 sys.path.insert(0, os.path.dirname(__file__))
 from tema_content import PAGES, VERSION
+try:
+    from artigos_content import ARTICLES
+except ImportError:
+    ARTICLES = []
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://leticiafreitaspsi.com"
@@ -16,21 +20,26 @@ def esc(s):
 
 
 def build(p):
-    url = f"{SITE}/{p['slug']}/"
+    is_art = p.get("kind") == "article"
+    path = ("blog/" if is_art else "") + p["slug"]
+    url = f"{SITE}/{path}/"
     wa = WA + urllib.parse.quote(p["wa_msg"])
     faq_ld = {
         "@context": "https://schema.org",
         "@graph": [
-            {"@type": "WebPage", "@id": url, "url": url, "name": p["title"], "description": p["desc"], "inLanguage": "pt-BR",
+            ({"@type": "BlogPosting", "@id": url, "headline": p["crumb"], "datePublished": p.get("date"), "dateModified": p.get("date"), "image": SITE + "/" + p["img"]["og"], "mainEntityOfPage": url, "publisher": {"@id": SITE + "/#business"}} if is_art else {}) ,
+            {"@type": "WebPage", "@id": url + "#page", "url": url, "name": p["title"], "description": p["desc"], "inLanguage": "pt-BR",
              "about": p["about"], "isPartOf": {"@id": SITE + "/#website"},
              "author": {"@id": SITE + "/#person"}, "reviewedBy": {"@id": SITE + "/#person"}},
             {"@type": "FAQPage", "mainEntity": [
                 {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in p["faq"]]},
             {"@type": "BreadcrumbList", "itemListElement": [
                 {"@type": "ListItem", "position": 1, "name": "Início", "item": SITE + "/"},
-                {"@type": "ListItem", "position": 2, "name": p["crumb"], "item": url}]},
+                *([{"@type": "ListItem", "position": 2, "name": "Blog", "item": SITE + "/blog/"}] if is_art else []),
+                {"@type": "ListItem", "position": 3 if is_art else 2, "name": p["crumb"], "item": url}]},
         ],
     }
+    faq_ld["@graph"] = [g for g in faq_ld["@graph"] if g]
     faq_html = "\n".join(f"<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>" for q, a in p["faq"])
     img = p["img"]
     html = f"""<!DOCTYPE html>
@@ -44,7 +53,7 @@ def build(p):
 <meta name="description" content="{esc(p['desc'])}">
 <link rel="canonical" href="{url}">
 <meta name="robots" content="{p.get('robots', 'index, follow')}">
-<meta property="og:type" content="article">
+<meta property="og:type" content="{'article' if is_art else 'website'}">
 <meta property="og:title" content="{esc(p['title'])}">
 <meta property="og:description" content="{esc(p['desc'])}">
 <meta property="og:url" content="{url}">
@@ -66,7 +75,7 @@ def build(p):
 <main>
   <section class="hero">
     <div>
-      <p class="crumb"><a href="/">Início</a> / {esc(p['crumb'])}</p>
+      <p class="crumb"><a href="/">Início</a> / {'<a href="/blog/">Blog</a> / ' if is_art else ''}{esc(p['crumb'])}</p>{('<p class="byline">Por Letícia Freitas, psicóloga (CRP 03/21534) · ' + p['date_br'] + ' · ' + p['read'] + ' de leitura</p>') if is_art else ''}
       <h1>{p['h1']}</h1>
       <p class="lead">{p['lead']}</p>
       <a class="btn" data-wa data-origem="{p['slug']}-hero" href="{wa}">{WA_ICON}{esc(p['cta_hero'])}</a>
@@ -107,12 +116,45 @@ document.querySelectorAll('[data-wa]').forEach(function (a) {{
 </body>
 </html>
 """
-    out = os.path.join(ROOT, p["slug"])
+    out = os.path.join(ROOT, path)
     os.makedirs(out, exist_ok=True)
     with open(os.path.join(out, "index.html"), "w") as f:
         f.write(html)
     print("ok", p["slug"])
 
 
-for page in PAGES:
+def build_blog_index(arts):
+    cards = "\n".join(f'''<a class="post" href="/blog/{a['slug']}/"><img src="/{a['img']['src']}" alt="" width="640" height="477" loading="lazy"><span class="post-meta">{a['date_br']} · {a['read']}</span><h2>{esc(a['crumb'])}</h2><p>{esc(a['desc'])}</p></a>''' for a in arts)
+    html = f"""<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-95BFDH34TY"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-95BFDH34TY');</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blog | Letícia Freitas, psicóloga</title>
+<meta name="description" content="Textos sobre ansiedade, regulação emocional, burnout e terapia online, escritos pela psicóloga Letícia Freitas.">
+<link rel="canonical" href="{SITE}/blog/">
+<link rel="icon" href="/favicon-32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/tema.css?v={VERSION}">
+</head><body>
+<header class="top"><a href="/" aria-label="Letícia Freitas Psicóloga, página inicial"><img src="/images/logo_leticia_dark.svg" alt="Letícia Freitas Psicóloga" width="140" height="34"></a></header>
+<main class="blog">
+<p class="crumb"><a href="/">Início</a> / Blog</p>
+<h1>Textos para entender <em>o que você sente</em></h1>
+<p class="lead">Ansiedade, emoções intensas, trabalho e vida longe de casa, explicados sem jargão.</p>
+<div class="posts">{cards}</div>
+<p class="related">Páginas de tema: <a href="/terapia-dbt/">Terapia DBT</a> · <a href="/regulacao-emocional/">Regulação emocional</a></p>
+</main>
+<footer>Letícia Freitas · Psicóloga · CRP 03/21534</footer>
+</body></html>
+"""
+    with open(os.path.join(ROOT, "blog", "index.html"), "w") as f:
+        f.write(html)
+    print("ok blog index")
+
+
+for page in PAGES + ARTICLES:
     build(page)
+if ARTICLES:
+    build_blog_index(sorted(ARTICLES, key=lambda a: a["date"], reverse=True))
