@@ -21,8 +21,8 @@ const TRANSLATIONS = {
     'hero.title': 'Quando tudo<br><em>pesa,</em> ter apoio<br>muda tudo.',
     'hero.desc': 'Muita gente chega aqui sem saber exatamente o que sente — só sabe que algo não tá certo. Esse já é um bom ponto de partida.',
     'hero.btn.whatsapp': 'Fala comigo no WhatsApp',
-    'hero.btn.como': 'Como funciona ↓',
-    'hero.tagline': 'Letícia Freitas · Psicóloga · Online e Presencial · Vitória da Conquista',
+    'hero.btn.como': 'Como funciona',
+    'hero.tagline': '<b>Letícia Freitas</b> · Psicóloga CRP 03/21534 · Vitória da Conquista',
     'hero.online.strong': 'Atendimento online.',
     'hero.online.span': 'Para todo o Brasil',
 
@@ -213,8 +213,8 @@ const TRANSLATIONS = {
     'hero.title': 'When everything<br><em>feels heavy,</em><br>support changes everything.',
     'hero.desc': "Many people come here without knowing exactly what they're feeling — they just know something isn't right. That's already a good starting point.",
     'hero.btn.whatsapp': 'Message me on WhatsApp',
-    'hero.btn.como': 'How it works ↓',
-    'hero.tagline': 'Letícia Freitas · Psychologist · Online & In-person · Brazil',
+    'hero.btn.como': 'How it works',
+    'hero.tagline': '<b>Letícia Freitas</b> · Psychologist CRP 03/21534 · Brazil',
     'hero.online.strong': 'Online sessions.',
     'hero.online.span': 'Anywhere in Brazil',
 

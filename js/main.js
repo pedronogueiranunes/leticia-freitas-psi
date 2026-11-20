@@ -85,3 +85,37 @@ function setLanguage(lang) {
     setLanguage(savedLang);
   }
 })();
+
+/* FAQ: smooth open/close for .fq-item details */
+(function () {
+  var still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var ease = 'cubic-bezier(.16,1,.3,1)';
+  document.addEventListener('click', function (e) {
+    var sum = e.target.closest('.fq-item > summary');
+    if (!sum || still) return;
+    var d = sum.parentElement, a = d.querySelector('.fq-a');
+    if (!a || d.__busy) return;
+    e.preventDefault();
+    d.__busy = true;
+    if (d.open) {
+      a.animate([{ height: a.offsetHeight + 'px', opacity: 1 }, { height: '0px', opacity: 0 }], { duration: 380, easing: ease })
+        .onfinish = function () { d.open = false; d.__busy = false; };
+    } else {
+      d.open = true;
+      a.animate([{ height: '0px' }, { height: a.offsetHeight + 'px' }], { duration: 520, easing: ease })
+        .onfinish = function () { d.__busy = false; };
+    }
+  });
+})();
+
+/* Footer: dot grid spotlight follows the cursor */
+(function () {
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches || !matchMedia('(hover: hover)').matches) return;
+  var f = document.querySelector('footer.ft');
+  if (!f) return;
+  f.addEventListener('pointermove', function (e) {
+    var r = f.getBoundingClientRect();
+    f.style.setProperty('--mx', (e.clientX - r.left) + 'px');
+    f.style.setProperty('--my', (e.clientY - r.top) + 'px');
+  });
+})();
