@@ -401,3 +401,344 @@ ARTICLES += [
         "related": 'Leia também: <a href="/blog/sintomas-fisicos-da-ansiedade/">sintomas físicos da ansiedade</a> e <a href="/blog/tensao-muscular-e-ansiedade/">tensão muscular e ansiedade</a>.',
     },
 ]
+
+def _art(slug, crumb, title, desc, about, h1, lead, img, wa, body, faq, cta_title, related, read="6 min"):
+    return {"kind": "article", "slug": slug, "date": "2026-11-22", "date_br": "22 de novembro de 2026", "read": read,
+            "crumb": crumb, "title": title + " | Letícia Freitas", "desc": desc, "about": about, "h1": h1, "lead": lead,
+            "cta_hero": "Conversar com a Letícia", "img": img, "wa_msg": f"Olá, Letícia! Li seu texto sobre {wa} e gostaria de conversar sobre um atendimento.",
+            "body": body, "faq": faq, "cta_title": cta_title,
+            "cta_text": "Me manda uma mensagem. A gente conversa sobre o que você está vivendo e sobre como funcionaria o atendimento, online ou presencial.",
+            "related": related}
+
+_SOB = {"src": "images/cards/sobrecarga-640.webp", "og": "images/espaco/sala-ampla.jpg", "alt": "Mesa de trabalho com notebook e café ao anoitecer"}
+_ALE = {"src": "images/cards/alerta-640.webp", "og": "images/espaco/sala-ampla.jpg", "alt": "Mesa de cabeceira com abajur aceso e celular à noite"}
+_EMO = {"src": "images/cards/emocoes-640.webp", "og": "images/espaco/sala-ampla.jpg", "alt": "Onda quebrando suavemente sobre pedras na praia"}
+_PIL = {"src": "images/cards/piloto-640.webp", "og": "images/espaco/sala-ampla.jpg", "alt": "Janela com lista de tarefas riscadas e vista da cidade"}
+_CVV = '<div class="note"><strong>Em uma crise agora?</strong> Se você corre risco, ligue para o CVV no 188 (24 horas, gratuito) ou procure o pronto atendimento mais próximo.</div>'
+
+ARTICLES += [
+_art("autocritica-excessiva", "Autocrítica excessiva: quando a voz interna só cobra",
+ "Autocrítica excessiva: quando a voz interna só cobra",
+ "Você erra uma coisa pequena e passa o dia se xingando? Entenda o que é autocrítica excessiva, de onde ela vem e como diminuir o peso dessa voz.",
+ "Autocrítica excessiva", "Autocrítica excessiva: <em>quando a voz interna só cobra</em>",
+ "Um erro bobo no trabalho e a cabeça repete o dia inteiro que você é incompetente. Um elogio que entra por um ouvido e sai pelo outro. Se essa voz soa familiar, este texto é para você.",
+ _SOB, "autocrítica",
+"""
+<h2>O que é autocrítica, e quando ela passa do ponto</h2>
+<p>Olhar para os próprios erros é útil. É assim que a gente aprende, ajusta a rota e melhora. A autocrítica vira um problema quando deixa de avaliar o que você <strong>fez</strong> e passa a atacar quem você <strong>é</strong>: “errei esse relatório” vira “eu não presto para nada”.</p>
+
+<h2>Sinais de que a autocrítica está pesada demais</h2>
+<ul>
+<li>Você fala consigo de um jeito que nunca falaria com alguém que você gosta.</li>
+<li>Erros pequenos ficam rodando na cabeça por horas ou dias.</li>
+<li>Elogios parecem exagero ou educação, críticas parecem a verdade.</li>
+<li>Você adia tarefas por medo de não fazer bem o bastante.</li>
+<li>Conquistas não trazem alívio, só a próxima cobrança.</li>
+<li>Descansar dá culpa, como se fosse preciso merecer.</li>
+</ul>
+
+<h2>De onde vem essa voz</h2>
+<p>Muitas vezes ela foi aprendida. Ambientes em que só o resultado era valorizado, comparações frequentes, críticas duras na infância ou a sensação de que o afeto dependia de desempenho ensinam que se cobrar é a forma de se proteger. Em algum momento isso pode até ter funcionado. O problema é que a voz continua gritando mesmo quando não ajuda mais.</p>
+
+<h2>Por que se cobrar mais não resolve</h2>
+<p>A autocrítica intensa costuma ser vendida como motivação: “se eu pegar leve comigo, vou relaxar”. Na prática, ela tende a aumentar a ansiedade, o medo de errar e a vontade de evitar. A pessoa trabalha mais e rende menos, e o cansaço vira mais um motivo para se criticar. É um caminho comum para o <a href="/sindrome-de-burnout/">burnout</a>.</p>
+
+<h2>O que pode ajudar</h2>
+<ul>
+<li><strong>Perceber a voz.</strong> Anote as frases que ela repete. Ver por escrito ajuda a notar o quanto são duras e generalizadas.</li>
+<li><strong>Separar o fato do julgamento.</strong> “Mandei o e-mail com erro” é um fato. “Sou um desastre” é um julgamento.</li>
+<li><strong>Perguntar o que você diria a alguém que gosta</strong> na mesma situação, e tentar dizer isso para você.</li>
+<li><strong>Ganhar distância do pensamento.</strong> Na ACT, um exercício simples é trocar “eu sou incompetente” por “estou tendo o pensamento de que sou incompetente”. O conteúdo é o mesmo, mas ele perde parte do peso.</li>
+</ul>
+
+<h2>Quando procurar ajuda</h2>
+<p>Se a cobrança interna está atrapalhando o sono, o trabalho ou as relações, ou se vem junto com tristeza que não passa, vale procurar acompanhamento. Na terapia, o objetivo não é parar de ter padrões, e sim construir uma relação mais justa consigo, usando a <a href="/terapia-act/">ACT</a> e a <a href="/terapia-dbt/">DBT</a> junto com a Análise do Comportamento.</p>
+""" + _CVV,
+ [("Autocrítica é sempre ruim?", "Não. Avaliar o que fez para melhorar é saudável. O problema é quando a crítica vira ataque à própria pessoa e passa a gerar mais sofrimento do que aprendizado."),
+  ("Autocompaixão não é se acomodar?", "Pesquisas sobre autocompaixão indicam o contrário: pessoas que se tratam com mais gentileza tendem a lidar melhor com os erros e a tentar de novo. Ser gentil não é ignorar o problema."),
+  ("A terapia online funciona para isso?", "Sim. O trabalho com pensamentos e com a forma de se tratar acontece do mesmo jeito por videochamada.")],
+ "Cansou de ouvir essa voz o dia inteiro?",
+ 'Leia também: <a href="/blog/perfeccionismo/">perfeccionismo</a>, <a href="/sindrome-de-burnout/">síndrome de burnout</a> e <a href="/terapia-act/">Terapia ACT</a>.'),
+
+_art("como-sair-do-burnout", "Como sair do burnout",
+ "Como sair do burnout: o que muda na rotina e quando procurar ajuda",
+ "Sair do burnout leva tempo e não depende só de força de vontade. Veja o que costuma ajudar na rotina, no trabalho e quando procurar acompanhamento.",
+ "Recuperação do burnout", "Como sair do burnout: <em>o que muda e quando pedir ajuda</em>",
+ "Uma semana de folga não desfaz meses de esgotamento. Sair do burnout costuma ser um processo, com passos pequenos, e quase sempre com ajuda.",
+ _SOB, "como sair do burnout",
+"""
+<h2>Primeiro, levar a sério</h2>
+<p>Quem chega ao <a href="/sindrome-de-burnout/">burnout</a> geralmente passou muito tempo empurrando o cansaço para depois. O primeiro passo é reconhecer que o corpo e a cabeça estão pedindo uma mudança de verdade, não só um fim de semana melhor.</p>
+<p>Uma consulta médica ajuda a checar sono, alimentação, exames e a avaliar se é necessário afastamento ou outro tipo de tratamento. Essa decisão é do médico, e ela pode caminhar junto com a psicoterapia.</p>
+
+<h2>O que costuma ajudar na rotina</h2>
+<ul>
+<li><strong>Descanso que seja descanso.</strong> Rolar o celular cansado no sofá não recupera. Vale testar pausas curtas sem tela, caminhadas, tempo com gente de quem você gosta.</li>
+<li><strong>Sono antes de tudo.</strong> Horários mais regulares e menos trabalho à noite fazem diferença maior do que parece.</li>
+<li><strong>Movimento leve.</strong> Não precisa virar atleta. Caminhar ou alongar alguns dias por semana já ajuda o corpo a sair do modo de alerta.</li>
+<li><strong>Uma coisa de cada vez.</strong> No esgotamento, a concentração cai. Listas curtas e uma tarefa por vez diminuem a sensação de estar sempre devendo.</li>
+</ul>
+
+<h2>O que pode mudar no trabalho</h2>
+<ul>
+<li>Conversar com a liderança sobre carga, prazos e prioridades, com exemplos concretos.</li>
+<li>Combinar horários de desconexão e cumprir, mesmo que no começo dê culpa.</li>
+<li>Rever o que é realmente seu e o que você assumiu por medo de dizer não.</li>
+<li>Em alguns casos, pensar com calma numa mudança de função ou de emprego. Essa decisão não precisa ser tomada no pior momento.</li>
+</ul>
+
+<h2>O que acontece por dentro</h2>
+<p>Muita gente descobre, no meio do caminho, que parte do esgotamento vinha de uma <a href="/blog/autocritica-excessiva/">autocrítica</a> forte, de <a href="/blog/perfeccionismo/">perfeccionismo</a> ou da dificuldade de pôr limites. Mudar só a rotina, sem olhar para isso, aumenta a chance de voltar ao mesmo lugar no próximo emprego.</p>
+
+<h2>Quanto tempo leva</h2>
+<p>Não existe um prazo certo. Depende de quanto tempo o esgotamento durou, do que muda no trabalho e do apoio disponível. Recaídas acontecem e fazem parte do processo, não significam que nada funcionou.</p>
+
+<h2>Como a terapia entra</h2>
+<p>Na terapia, o trabalho é entender o que te levou até aqui, reconhecer os sinais de esgotamento mais cedo, rever limites e reconectar com o que importa para você fora da produtividade. Atendo online e presencialmente em Vitória da Conquista, com base na Análise do Comportamento, na <a href="/terapia-act/">ACT</a> e na <a href="/terapia-dbt/">DBT</a>.</p>
+""" + _CVV,
+ [("Férias resolvem o burnout?", "Ajudam a aliviar, mas raramente resolvem sozinhas. Se o trabalho e o jeito de se relacionar com ele continuam iguais, o esgotamento tende a voltar."),
+  ("Preciso de afastamento?", "Depende da gravidade, e quem avalia é o médico. A psicoterapia pode acompanhar a pessoa com ou sem afastamento."),
+  ("Dá para se recuperar sem sair do emprego?", "Muitas vezes sim, com mudanças na carga, nos limites e na forma de trabalhar. Em outros casos, a mudança de emprego faz parte do caminho.")],
+ "Quer ajuda para sair do esgotamento?",
+ 'Leia também: <a href="/sindrome-de-burnout/">síndrome de burnout</a> e <a href="/blog/burnout-ou-cansaco/">burnout ou cansaço?</a>.'),
+
+_art("crise-de-ansiedade-do-nada", "Por que a crise de ansiedade parece vir do nada",
+ "Por que a crise de ansiedade parece vir do nada",
+ "Estava tudo calmo e de repente o coração disparou? Entenda por que crises de ansiedade parecem surgir sem motivo e o que costuma estar por trás.",
+ "Causas da crise de ansiedade", "Por que a crise de ansiedade <em>parece vir do nada</em>",
+ "Vendo uma série, no mercado, quase dormindo. A crise chega sem aviso e deixa uma pergunta: o que foi que eu fiz? Quase sempre existe um caminho, só que ele não é óbvio.",
+ _ALE, "crise de ansiedade",
+"""
+<h2>“Do nada” quase nunca é do nada</h2>
+<p>Quando uma crise aparece num momento tranquilo, é natural achar que não teve motivo. Mas a ansiedade funciona por acúmulo. Semanas dormindo mal, preocupações sem resolver, muito café, um corpo que ficou em alerta por tempo demais: tudo isso vai enchendo o copo, e a crise acontece quando ele transborda, às vezes num momento em que nada parece estar errado.</p>
+<p>É comum, inclusive, que a crise venha justamente quando a pessoa relaxa, depois de um período de muita pressão.</p>
+
+<h2>Gatilhos que passam despercebidos</h2>
+<ul>
+<li><strong>Sensações do próprio corpo.</strong> Uma batida diferente do coração, um calor, uma tontura leve ao levantar. Se o cérebro aprendeu que essas sensações são perigosas, elas mesmas viram gatilho.</li>
+<li><strong>Pensamentos rápidos</strong> que a gente nem registra direito, como uma lembrança ou uma preocupação que passou num segundo.</li>
+<li><strong>Lugares e situações</strong> parecidos com onde já houve uma crise antes.</li>
+<li><strong>O corpo cansado</strong>: pouco sono, fome, ressaca, cafeína ou estimulantes.</li>
+<li><strong>Mudanças e estresse acumulado</strong>, mesmo os bons, como mudança de casa ou de emprego.</li>
+</ul>
+
+<h2>O medo da próxima crise</h2>
+<p>Depois de algumas crises, muita gente passa a viver em vigilância: presta atenção em cada sensação do corpo, evita lugares, sai menos sem companhia. Esse medo de ter medo é um dos principais mantenedores do ciclo. Quanto mais atenção o corpo recebe, mais ele parece estranho, e mais provável fica a próxima crise.</p>
+
+<h2>Como descobrir o seu caminho</h2>
+<p>Um diário simples ajuda: depois de cada crise, anote o horário, onde estava, como tinha dormido, o que comeu ou bebeu, o que vinha acontecendo nos dias anteriores. Em algumas semanas, padrões costumam aparecer. Para a hora da crise em si, deixei um roteiro em <a href="/blog/o-que-fazer-numa-crise-de-ansiedade/">o que fazer numa crise de ansiedade</a>.</p>
+
+<h2>Quando procurar ajuda</h2>
+<p>Se as crises se repetem, se você começa a evitar situações ou vive com medo da próxima, vale procurar uma avaliação. Antes, um médico deve descartar causas físicas. Na terapia, trabalhamos o ciclo de alerta, medo e evitação, com base na Análise do Comportamento, na <a href="/terapia-act/">ACT</a> e na <a href="/terapia-dbt/">DBT</a>.</p>
+""" + _CVV,
+ [("É normal ter crise de ansiedade dormindo ou ao acordar?", "Pode acontecer e assusta muito. Como esses sintomas também aparecem em outras condições, vale uma avaliação médica, e depois um acompanhamento psicológico se as crises continuarem."),
+  ("Crise de ansiedade sem motivo é pânico?", "Não necessariamente. Só uma avaliação profissional pode dizer o que acontece no seu caso. O importante é não enfrentar isso sem apoio se está se repetindo."),
+  ("Cafeína pode causar crise?", "Em pessoas sensíveis, cafeína em excesso pode aumentar sintomas físicos de ansiedade e facilitar uma crise. Vale observar se há relação no seu caso.")],
+ "As crises estão mudando sua rotina?",
+ 'Leia também: <a href="/blog/o-que-fazer-numa-crise-de-ansiedade/">o que fazer numa crise de ansiedade</a> e <a href="/blog/sintomas-fisicos-da-ansiedade/">sintomas físicos da ansiedade</a>.', read="5 min"),
+
+_art("perfeccionismo", "Perfeccionismo: quando a exigência vira sofrimento",
+ "Perfeccionismo: quando a exigência vira sofrimento",
+ "Perfeccionismo é qualidade ou problema? Entenda a diferença entre fazer bem feito e nunca achar suficiente, os sinais e como lidar.",
+ "Perfeccionismo", "Perfeccionismo: <em>quando a exigência vira sofrimento</em>",
+ "Na entrevista de emprego, perfeccionismo vira qualidade. No dia a dia, pode virar noites revisando o mesmo slide, projetos que nunca saem da gaveta e um cansaço que não passa.",
+ _PIL, "perfeccionismo",
+"""
+<h2>Fazer bem feito ou nunca achar suficiente?</h2>
+<p>Ter padrões altos, gostar de fazer as coisas com cuidado e se orgulhar do resultado é saudável. O perfeccionismo que faz sofrer é outra coisa: o padrão é tão alto que quase nunca é atingido, errar parece inaceitável e o valor pessoal fica preso ao desempenho.</p>
+<p>A diferença costuma aparecer no que acontece depois. Quem tem padrões saudáveis fica satisfeito com um bom trabalho. Quem vive o perfeccionismo que pesa sente alívio por pouco tempo e logo enxerga o que faltou.</p>
+
+<h2>Sinais comuns</h2>
+<ul>
+<li>Revisar várias vezes algo que já está pronto.</li>
+<li>Adiar o começo porque não há tempo de fazer “do jeito certo”.</li>
+<li>Dificuldade de delegar, porque ninguém faz como você faria.</li>
+<li>Ler qualquer crítica como prova de fracasso.</li>
+<li>Se comparar o tempo todo e sempre sair perdendo.</li>
+<li>Pouca capacidade de comemorar o que deu certo.</li>
+</ul>
+
+<h2>O custo escondido</h2>
+<p>O perfeccionismo cobra caro: ansiedade antes das entregas, procrastinação, sono ruim, relações tensas e uma <a href="/blog/autocritica-excessiva/">autocrítica</a> que não descansa. Com o tempo, é um dos caminhos mais comuns para o <a href="/sindrome-de-burnout/">burnout</a>. E, ironicamente, ele costuma atrapalhar justamente a qualidade que pretende proteger.</p>
+
+<h2>O que pode ajudar</h2>
+<ul>
+<li><strong>Definir o “bom o suficiente” antes de começar.</strong> O que precisa estar pronto para a tarefa cumprir seu objetivo?</li>
+<li><strong>Pôr prazo também para revisar.</strong> Quando o tempo acaba, entrega.</li>
+<li><strong>Testar errar de propósito em coisas pequenas</strong> e observar o que realmente acontece. Quase sempre, muito menos do que o medo previa.</li>
+<li><strong>Olhar para o que importa por trás da exigência.</strong> Na ACT, a pergunta é: esse padrão está me aproximando do que valorizo ou só me protegendo do medo de falhar?</li>
+</ul>
+
+<h2>Quando procurar ajuda</h2>
+<p>Se a exigência está afetando sua saúde, seu sono ou suas relações, ou se você sente que nunca é suficiente, vale procurar acompanhamento. Na terapia, o objetivo não é baixar a régua de tudo, e sim escolher onde ela faz sentido. Atendo online e presencialmente em Vitória da Conquista.</p>
+""" + _CVV,
+ [("Perfeccionismo é um transtorno?", "Não é um diagnóstico por si só. É um jeito de funcionar que pode aparecer junto com ansiedade, burnout e outras dificuldades, e que pode ser trabalhado em terapia."),
+  ("Perfeccionismo é um defeito?", "Depende do quanto ele custa. Padrões altos podem ser uma força. Quando trazem mais sofrimento do que satisfação, vale olhar com cuidado."),
+  ("Vou perder a qualidade do meu trabalho se pegar mais leve?", "O que se costuma observar é o contrário: com menos medo de errar, as pessoas procrastinam menos e conseguem entregar com mais constância.")],
+ "Sente que nada do que você faz é suficiente?",
+ 'Leia também: <a href="/blog/autocritica-excessiva/">autocrítica excessiva</a> e <a href="/sindrome-de-burnout/">síndrome de burnout</a>.'),
+
+_art("como-sair-da-dependencia-emocional", "Como sair da dependência emocional no relacionamento",
+ "Como sair da dependência emocional no relacionamento",
+ "Sair da dependência emocional não é deixar de amar, é voltar a ter espaço para você. Veja passos possíveis e quando buscar ajuda.",
+ "Dependência emocional no relacionamento", "Como sair da dependência emocional <em>no relacionamento</em>",
+ "Você sabe que algo não vai bem, mas a ideia de se afastar dá um aperto que parece insuportável. Sair da dependência emocional é possível, e começa bem antes de qualquer decisão sobre a relação.",
+ _EMO, "dependência emocional",
+"""
+<h2>Sair da dependência não é deixar de amar</h2>
+<p>Se você chegou até aqui, talvez já tenha lido sobre <a href="/blog/o-que-e-dependencia-emocional/">o que é dependência emocional</a>. Sair desse padrão não significa obrigatoriamente terminar, nem passar a não precisar de ninguém. Significa voltar a ter uma vida própria, com segurança que não dependa só do outro.</p>
+
+<h2>Passos possíveis</h2>
+<h3>Reconstruir uma rede</h3>
+<p>Dependência emocional costuma vir junto com isolamento. Retomar contato com amigos, família e atividades que eram suas dá outros pontos de apoio e diminui o peso colocado numa só pessoa.</p>
+<h3>Perceber o que a ansiedade pede</h3>
+<p>Quando bate a vontade de mandar mensagem atrás de mensagem, checar redes sociais ou pedir garantias, tente esperar alguns minutos e observar a emoção antes de agir. A ansiedade sobe, atinge um pico e baixa, mesmo sem a resposta do outro.</p>
+<h3>Treinar pequenos limites</h3>
+<p>Dizer o que gosta, discordar de algo pequeno, recusar um convite. Começar por situações de baixo risco ajuda a perceber que dá para se posicionar sem perder o vínculo.</p>
+<h3>Cuidar de quem você é fora da relação</h3>
+<p>Gostos, planos e rotinas que existem independentemente do outro. Não para competir com a relação, mas para que ela não seja o único lugar onde você existe.</p>
+
+<h2>Se você decidir terminar</h2>
+<p>O fim pode vir com uma falta enorme, quase física, e com vontade de voltar. Isso é esperado e não quer dizer que a decisão foi errada. Ter apoio por perto, evitar reabrir o contato nos momentos de maior saudade e contar com acompanhamento profissional faz diferença nessa fase.</p>
+
+<h2>Quando a relação machuca</h2>
+<p>Se existe controle, humilhação, ameaça ou violência, a prioridade é a sua segurança. Procure pessoas de confiança e serviços especializados antes de qualquer conversa difícil.</p>
+
+<h2>Como a terapia ajuda</h2>
+<p>Na terapia, olhamos para a história que ensinou esse jeito de se relacionar, para as emoções intensas que aparecem com a distância e para as habilidades de comunicação e limite. A <a href="/terapia-dbt/">DBT</a> tem um módulo inteiro sobre relações, e a <a href="/regulacao-emocional/">regulação emocional</a> ajuda a atravessar os momentos de maior ansiedade.</p>
+<div class="note"><strong>Se a relação envolve violência</strong>, ameaças ou controle, ligue 180 (Central de Atendimento à Mulher) ou 190 em caso de perigo imediato. Para apoio emocional, o CVV atende pelo 188, 24 horas.</div>
+""",
+ [("Preciso terminar para sair da dependência emocional?", "Não necessariamente. Muitas pessoas mudam o padrão dentro da relação. Em outros casos, terminar faz parte. A terapia ajuda a decidir com mais clareza e menos medo."),
+  ("Quanto tempo leva?", "Varia de pessoa para pessoa. É um processo de mudar hábitos de anos, então costuma ser gradual, com avanços e recuos."),
+  ("Posso fazer terapia online para isso?", "Sim, e para muita gente falar de dentro de casa, com privacidade, é até mais fácil.")],
+ "Quer ajuda para voltar a ter espaço para você?",
+ 'Leia também: <a href="/blog/o-que-e-dependencia-emocional/">o que é dependência emocional</a> e <a href="/regulacao-emocional/">regulação emocional</a>.'),
+]
+
+ARTICLES += [
+_art("procrastinacao", "Procrastinação não é preguiça",
+ "Procrastinação: o que é e por que não é preguiça",
+ "O que é procrastinação, por que a gente adia o que precisa fazer e o que ajuda de verdade. A relação com ansiedade, perfeccionismo e medo de errar.",
+ "Procrastinação", "Procrastinação: <em>por que não é preguiça</em>",
+ "Você sabe que precisa fazer, quer fazer, e mesmo assim abre outra aba, arruma a gaveta, deixa para amanhã. Procrastinar raramente tem a ver com falta de vontade.",
+ _PIL, "procrastinação",
+"""
+<h2>O que é procrastinação</h2>
+<p>Procrastinar é adiar uma tarefa importante, mesmo sabendo que o atraso vai trazer problemas. A palavra vem do latim e quer dizer, mais ou menos, “deixar para amanhã”. Todo mundo faz isso de vez em quando. O problema é quando vira padrão e começa a custar prazos, oportunidades e sono.</p>
+
+<h2>Por que não é preguiça</h2>
+<p>Quem tem preguiça não quer fazer e fica em paz com isso. Quem procrastina geralmente quer fazer, se sente culpado por não estar fazendo e passa o tempo de “folga” ansioso. Por isso, muitos pesquisadores descrevem a procrastinação como uma forma de lidar com emoções desconfortáveis, e não como um problema de gestão do tempo.</p>
+<p>A tarefa adiada costuma estar ligada a algo que incomoda: medo de errar, tédio, insegurança, sensação de não saber por onde começar. Adiar traz alívio imediato. E alívio imediato é um reforço poderoso, que ensina o cérebro a adiar de novo na próxima vez.</p>
+
+<h2>Com o que ela costuma andar junto</h2>
+<ul>
+<li><strong><a href="/blog/perfeccionismo/">Perfeccionismo</a></strong>: se não dá para fazer perfeito, melhor nem começar.</li>
+<li><strong><a href="/blog/autocritica-excessiva/">Autocrítica</a></strong>: o medo do próprio julgamento depois de entregar.</li>
+<li><strong>Ansiedade</strong>: a tarefa vira ameaça, e evitar parece proteger.</li>
+<li><strong>Cansaço e <a href="/sindrome-de-burnout/">burnout</a></strong>: sem energia, tudo parece maior do que é.</li>
+</ul>
+<p>Em algumas pessoas, a procrastinação também aparece junto com dificuldades de atenção. Só uma avaliação profissional pode dizer se é o seu caso.</p>
+
+<h2>O que ajuda de verdade</h2>
+<ul>
+<li><strong>Diminuir o primeiro passo</strong> até ficar quase ridículo: abrir o arquivo, escrever o título, separar o material. Começar é a parte mais difícil.</li>
+<li><strong>Trabalhar por blocos curtos</strong>, de 15 a 25 minutos, com pausa depois. Saber que vai parar ajuda a começar.</li>
+<li><strong>Perceber a emoção por trás.</strong> Pergunte: o que eu estou evitando sentir com essa tarefa? Dar nome já tira parte do peso.</li>
+<li><strong>Tirar as tentações do caminho</strong> por um tempo, como celular em outro cômodo.</li>
+<li><strong>Trocar a bronca por gentileza.</strong> Se culpar depois de procrastinar tende a aumentar a vontade de adiar da próxima vez.</li>
+</ul>
+
+<h2>Quando procurar ajuda</h2>
+<p>Se a procrastinação está afetando trabalho, estudos ou relações, ou vem junto com ansiedade e cansaço constantes, vale procurar acompanhamento. Na terapia, olhamos para o que a tarefa adiada desperta e construímos formas de agir mesmo com desconforto, com base na Análise do Comportamento e na <a href="/terapia-act/">ACT</a>.</p>
+""" + _CVV,
+ [("Procrastinação é doença?", "Não. É um comportamento comum, que pode virar um padrão difícil de quebrar e aparecer junto com ansiedade, perfeccionismo ou outras dificuldades."),
+  ("Procrastinação tem cura?", "Como não é uma doença, faz mais sentido falar em mudar o padrão. Com estratégias e, quando necessário, terapia, é possível adiar menos e sofrer menos com isso."),
+  ("Procrastinação tem relação com ansiedade?", "Muitas vezes sim. Adiar pode ser uma forma de evitar o desconforto que a tarefa provoca, o que alivia na hora e aumenta a ansiedade depois.")],
+ "Sente que vive adiando a própria vida?",
+ 'Leia também: <a href="/blog/perfeccionismo/">perfeccionismo</a>, <a href="/blog/autocritica-excessiva/">autocrítica excessiva</a> e <a href="/blog/procrastinacao-do-sono/">procrastinação do sono</a>.'),
+
+_art("ansiedade-social", "O que é ansiedade social",
+ "O que é ansiedade social e como diferenciar de timidez",
+ "Medo intenso de ser julgado, de falar em público ou de comer na frente dos outros. Entenda o que é ansiedade social, a diferença para timidez e como a terapia ajuda.",
+ "Ansiedade social", "O que é ansiedade social <em>e como diferenciar de timidez</em>",
+ "Ensaiar a frase dez vezes antes de falar na reunião. Recusar o convite para não ter que conversar com desconhecidos. Passar a noite repassando o que disse. A ansiedade social vai além de ser tímido.",
+ _ALE, "ansiedade social",
+"""
+<h2>O que é ansiedade social</h2>
+<p>Ansiedade social é um medo forte e persistente de situações em que a pessoa pode ser observada, avaliada ou julgada pelos outros. O medo não é das pessoas em si, mas de passar vergonha, parecer estranho ou ser rejeitado.</p>
+<p>Ela pode aparecer em situações bem específicas, como falar em público, ou em quase todas as interações: conversar com colegas, pedir algo no restaurante, fazer uma ligação, comer na frente de alguém.</p>
+
+<h2>Sinais comuns</h2>
+<ul>
+<li>Preocupação intensa dias antes de um evento social.</li>
+<li>Corpo em alerta durante a interação: rosto vermelho, tremor, suor, voz falhando, coração acelerado.</li>
+<li>Sensação de que todo mundo está reparando em você.</li>
+<li>Evitar situações, chegar atrasado para não ter que conversar, sair cedo.</li>
+<li>Ficar horas, depois, revendo cada frase e cada gesto.</li>
+<li>Deixar de fazer coisas importantes, como ir a entrevistas ou se candidatar a uma vaga, por causa do medo.</li>
+</ul>
+<p>Se você se reconheceu, isso não é um diagnóstico. É um sinal de que vale conversar com uma profissional.</p>
+
+<h2>Timidez ou ansiedade social?</h2>
+<p>Timidez é um traço de personalidade: a pessoa demora a se soltar, prefere grupos pequenos, mas vai aos lugares e consegue aproveitar. Na ansiedade social, o medo é intenso, dura meses e começa a limitar a vida: a pessoa deixa de fazer o que quer ou precisa para não passar pela situação temida.</p>
+
+<h2>O ciclo que mantém o medo</h2>
+<p>Evitar a situação traz alívio na hora. Mas, sem passar por ela, a pessoa nunca descobre que conseguiria lidar, e o medo cresce. Algumas estratégias de “segurança”, como ensaiar tudo, não olhar nos olhos ou ficar no celular, também mantêm o ciclo, porque reforçam a ideia de que sem elas algo terrível aconteceria.</p>
+
+<h2>O que pode ajudar</h2>
+<ul>
+<li><strong>Começar por situações pequenas</strong> e ir aumentando aos poucos, em vez de evitar tudo.</li>
+<li><strong>Tirar a atenção de si</strong> durante a conversa e colocar no outro e no assunto.</li>
+<li><strong>Questionar a leitura de pensamento.</strong> “Ela achou que eu sou estranho” é uma suposição, não um fato.</li>
+<li><strong>Respirar soltando o ar devagar</strong> antes de entrar numa situação difícil.</li>
+</ul>
+
+<h2>Como a terapia ajuda</h2>
+<p>As terapias comportamentais estão entre as abordagens mais estudadas para ansiedade social. Na terapia, trabalhamos a aproximação gradual das situações temidas, as habilidades sociais e a relação com os pensamentos de julgamento, com base na Análise do Comportamento e na <a href="/terapia-act/">ACT</a>. Para muita gente com ansiedade social, começar online é um passo mais fácil.</p>
+""" + _CVV,
+ [("Ansiedade social é o mesmo que fobia social?", "Os dois termos costumam ser usados como sinônimos. O nome mais usado hoje entre profissionais é transtorno de ansiedade social, mas só uma avaliação pode dizer se é o seu caso."),
+  ("Ansiedade social tem tratamento?", "Sim. A psicoterapia é um dos tratamentos mais estudados, e em alguns casos o médico pode indicar medicação junto."),
+  ("Terapia online funciona para ansiedade social?", "Sim, e para muitas pessoas é a forma mais acessível de começar. Ao longo do processo, a terapia também trabalha as situações presenciais.")],
+ "O medo de ser julgado está te impedindo de viver?",
+ 'Leia também: <a href="/blog/sintomas-fisicos-da-ansiedade/">sintomas físicos da ansiedade</a> e <a href="/blog/autocritica-excessiva/">autocrítica excessiva</a>.'),
+
+_art("procrastinacao-do-sono", "Procrastinação do sono por vingança",
+ "Procrastinação do sono por vingança: por que a gente não vai dormir",
+ "Você está exausto, mas fica no celular até tarde porque é o único tempo seu. Entenda a procrastinação do sono por vingança e como sair dela.",
+ "Procrastinação do sono", "Procrastinação do sono por vingança: <em>por que a gente não vai dormir</em>",
+ "Meia-noite, olhos ardendo, e mesmo assim mais um vídeo, mais um episódio. Não é falta de juízo: muitas vezes é a única hora do dia que parece ser sua.",
+ _ALE, "procrastinação do sono",
+"""
+<h2>O que é</h2>
+<p>“Procrastinação do sono por vingança” é a tradução de uma expressão que surgiu na China e se espalhou nas redes. Descreve o hábito de adiar a hora de dormir, mesmo cansado, para ter algum tempo livre que o dia não deixou. A “vingança” é contra uma rotina que ocupou tudo: trabalho, filhos, casa, deslocamento.</p>
+<p>Não é um diagnóstico. É um nome para um comportamento muito comum, principalmente entre quem tem jornadas longas e pouco controle sobre o próprio tempo.</p>
+
+<h2>Sinais de que está acontecendo com você</h2>
+<ul>
+<li>Você sabe que deveria dormir, mas fica no celular ou na TV sem nem aproveitar muito.</li>
+<li>A noite é o único momento em que ninguém te pede nada.</li>
+<li>Acorda cansado, promete dormir cedo, e à noite repete.</li>
+<li>A sensação é de que o dia foi todo dos outros.</li>
+</ul>
+
+<h2>Por que é tão difícil parar</h2>
+<p>Quando o dia é todo de obrigações, o tempo noturno vira recompensa, autonomia e descanso mental ao mesmo tempo. Ir dormir parece abrir mão disso. E o cansaço, ironicamente, deixa mais difícil resistir ao impulso de continuar rolando a tela.</p>
+<p>O preço vem no dia seguinte: menos energia, mais irritação, mais dificuldade de concentração e mais vulnerabilidade à ansiedade. Com o tempo, pode fazer parte do caminho para o <a href="/sindrome-de-burnout/">burnout</a>.</p>
+
+<h2>O que pode ajudar</h2>
+<ul>
+<li><strong>Criar um pedaço de tempo seu durante o dia</strong>, mesmo curto: 20 minutos no almoço, uma caminhada, um café sem tela. Se o dia tiver algum espaço seu, a noite precisa compensar menos.</li>
+<li><strong>Fazer o lazer da noite mais cedo</strong> e com fim definido, como um episódio em vez de autoplay.</li>
+<li><strong>Deixar o celular longe da cama</strong> e usar um despertador comum.</li>
+<li><strong>Olhar para a rotina com honestidade.</strong> Se não sobra tempo nenhum, o problema talvez não seja a noite, e sim o excesso de demandas.</li>
+</ul>
+
+<h2>Quando procurar ajuda</h2>
+<p>Se o sono ruim já está afetando seu humor, seu trabalho ou sua saúde, ou se a sensação de não ter vida própria é constante, vale procurar acompanhamento. Problemas de sono persistentes também merecem avaliação médica. Na terapia, olhamos para a rotina, os limites e o que importa para você, com apoio da <a href="/terapia-act/">ACT</a>.</p>
+""" + _CVV,
+ [("Isso é um transtorno do sono?", "Não necessariamente. É um comportamento de adiar a hora de dormir. Se a insônia continua mesmo quando você vai para a cama cedo, vale procurar um médico."),
+  ("Por que eu faço isso mesmo sabendo que vou me arrepender?", "Porque o alívio de ter tempo para si acontece agora, e o cansaço só chega amanhã. O cérebro tende a dar mais peso ao que é imediato."),
+  ("Terapia ajuda com isso?", "Pode ajudar, principalmente quando a procrastinação do sono vem junto com sobrecarga, ansiedade ou dificuldade de pôr limites.")],
+ "Sente que o dia nunca é seu?",
+ 'Leia também: <a href="/blog/procrastinacao/">procrastinação</a>, <a href="/sindrome-de-burnout/">síndrome de burnout</a> e <a href="/blog/como-sair-do-burnout/">como sair do burnout</a>.', read="5 min"),
+]
