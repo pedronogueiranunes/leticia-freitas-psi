@@ -9,6 +9,7 @@
 
   /* ── Helpers ── */
   function reveal(el, variant, delay) {
+    if (!el) return; // sections get redesigned; a missing target must not kill the observer
     el.classList.add('reveal');
     if (variant) el.classList.add(variant);
     el.style.setProperty('--reveal-delay', delay + 'ms');
