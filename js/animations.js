@@ -101,12 +101,7 @@
   window.addEventListener('load', function () {
     var tl = gsap.timeline({ defaults: { ease: 'power3.out' } });
 
-    tl.fromTo('.badge',
-      { opacity: 0, y: -12, scale: 0.92 },
-      { opacity: 1, y: 0, scale: 1, duration: 0.6 },
-      0.1
-    )
-    .fromTo('.hero-title',
+    tl.fromTo('.hero-title',
       { opacity: 0, y: 28 },
       { opacity: 1, y: 0, duration: 0.9 },
       0.28
