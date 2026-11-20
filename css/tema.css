@@ -59,3 +59,17 @@ footer { text-align: center; font-size: .8rem; color: var(--mid); padding: 0 20p
   .top .btn span { display: none; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .btn { transition: none; } }
+
+/* Blog */
+.byline { margin-top: 14px; font-size: .88rem; color: var(--mid); }
+.blog { max-width: 1100px; margin: 0 auto; padding: 24px 20px 40px; }
+.blog .lead { margin-bottom: 40px; }
+.posts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+.post { text-decoration: none; color: inherit; display: block; }
+.post img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 22px; display: block; background: var(--soft); }
+.post-meta { display: block; margin-top: 14px; font-size: .82rem; color: var(--mid); }
+.post h2 { font-family: 'Playfair Display', serif; font-weight: 600; font-size: 1.35rem; line-height: 1.25; margin-top: 6px; text-wrap: balance; }
+.post p { margin-top: 8px; font-size: .95rem; color: var(--mid); }
+.post:hover h2 { color: var(--green-dark); text-decoration: underline; text-underline-offset: 4px; }
+.blog .related { margin: 56px 0 0; padding: 0; max-width: none; }
+@media (max-width: 900px) { .posts { grid-template-columns: 1fr; } }
