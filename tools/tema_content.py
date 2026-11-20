@@ -2,7 +2,7 @@
 # Regras: sintoma primeiro, abordagem depois; sem promessa de resultado; sem confirmar diagnóstico;
 # sem TCC; linguagem neutra; sem travessões.
 
-VERSION = "20261120d"
+VERSION = "20261120e"
 
 PAGES = [
     {
