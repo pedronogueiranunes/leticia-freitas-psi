@@ -614,3 +614,131 @@ _art("como-sair-da-dependencia-emocional", "Como sair da dependência emocional 
  "Quer ajuda para voltar a ter espaço para você?",
  'Leia também: <a href="/blog/o-que-e-dependencia-emocional/">o que é dependência emocional</a> e <a href="/regulacao-emocional/">regulação emocional</a>.'),
 ]
+
+ARTICLES += [
+_art("procrastinacao", "Procrastinação não é preguiça",
+ "Procrastinação: o que é e por que não é preguiça",
+ "O que é procrastinação, por que a gente adia o que precisa fazer e o que ajuda de verdade. A relação com ansiedade, perfeccionismo e medo de errar.",
+ "Procrastinação", "Procrastinação: <em>por que não é preguiça</em>",
+ "Você sabe que precisa fazer, quer fazer, e mesmo assim abre outra aba, arruma a gaveta, deixa para amanhã. Procrastinar raramente tem a ver com falta de vontade.",
+ _PIL, "procrastinação",
+"""
+<h2>O que é procrastinação</h2>
+<p>Procrastinar é adiar uma tarefa importante, mesmo sabendo que o atraso vai trazer problemas. A palavra vem do latim e quer dizer, mais ou menos, “deixar para amanhã”. Todo mundo faz isso de vez em quando. O problema é quando vira padrão e começa a custar prazos, oportunidades e sono.</p>
+
+<h2>Por que não é preguiça</h2>
+<p>Quem tem preguiça não quer fazer e fica em paz com isso. Quem procrastina geralmente quer fazer, se sente culpado por não estar fazendo e passa o tempo de “folga” ansioso. Por isso, muitos pesquisadores descrevem a procrastinação como uma forma de lidar com emoções desconfortáveis, e não como um problema de gestão do tempo.</p>
+<p>A tarefa adiada costuma estar ligada a algo que incomoda: medo de errar, tédio, insegurança, sensação de não saber por onde começar. Adiar traz alívio imediato. E alívio imediato é um reforço poderoso, que ensina o cérebro a adiar de novo na próxima vez.</p>
+
+<h2>Com o que ela costuma andar junto</h2>
+<ul>
+<li><strong><a href="/blog/perfeccionismo/">Perfeccionismo</a></strong>: se não dá para fazer perfeito, melhor nem começar.</li>
+<li><strong><a href="/blog/autocritica-excessiva/">Autocrítica</a></strong>: o medo do próprio julgamento depois de entregar.</li>
+<li><strong>Ansiedade</strong>: a tarefa vira ameaça, e evitar parece proteger.</li>
+<li><strong>Cansaço e <a href="/sindrome-de-burnout/">burnout</a></strong>: sem energia, tudo parece maior do que é.</li>
+</ul>
+<p>Em algumas pessoas, a procrastinação também aparece junto com dificuldades de atenção. Só uma avaliação profissional pode dizer se é o seu caso.</p>
+
+<h2>O que ajuda de verdade</h2>
+<ul>
+<li><strong>Diminuir o primeiro passo</strong> até ficar quase ridículo: abrir o arquivo, escrever o título, separar o material. Começar é a parte mais difícil.</li>
+<li><strong>Trabalhar por blocos curtos</strong>, de 15 a 25 minutos, com pausa depois. Saber que vai parar ajuda a começar.</li>
+<li><strong>Perceber a emoção por trás.</strong> Pergunte: o que eu estou evitando sentir com essa tarefa? Dar nome já tira parte do peso.</li>
+<li><strong>Tirar as tentações do caminho</strong> por um tempo, como celular em outro cômodo.</li>
+<li><strong>Trocar a bronca por gentileza.</strong> Se culpar depois de procrastinar tende a aumentar a vontade de adiar da próxima vez.</li>
+</ul>
+
+<h2>Quando procurar ajuda</h2>
+<p>Se a procrastinação está afetando trabalho, estudos ou relações, ou vem junto com ansiedade e cansaço constantes, vale procurar acompanhamento. Na terapia, olhamos para o que a tarefa adiada desperta e construímos formas de agir mesmo com desconforto, com base na Análise do Comportamento e na <a href="/terapia-act/">ACT</a>.</p>
+""" + _CVV,
+ [("Procrastinação é doença?", "Não. É um comportamento comum, que pode virar um padrão difícil de quebrar e aparecer junto com ansiedade, perfeccionismo ou outras dificuldades."),
+  ("Procrastinação tem cura?", "Como não é uma doença, faz mais sentido falar em mudar o padrão. Com estratégias e, quando necessário, terapia, é possível adiar menos e sofrer menos com isso."),
+  ("Procrastinação tem relação com ansiedade?", "Muitas vezes sim. Adiar pode ser uma forma de evitar o desconforto que a tarefa provoca, o que alivia na hora e aumenta a ansiedade depois.")],
+ "Sente que vive adiando a própria vida?",
+ 'Leia também: <a href="/blog/perfeccionismo/">perfeccionismo</a>, <a href="/blog/autocritica-excessiva/">autocrítica excessiva</a> e <a href="/blog/procrastinacao-do-sono/">procrastinação do sono</a>.'),
+
+_art("ansiedade-social", "O que é ansiedade social",
+ "O que é ansiedade social e como diferenciar de timidez",
+ "Medo intenso de ser julgado, de falar em público ou de comer na frente dos outros. Entenda o que é ansiedade social, a diferença para timidez e como a terapia ajuda.",
+ "Ansiedade social", "O que é ansiedade social <em>e como diferenciar de timidez</em>",
+ "Ensaiar a frase dez vezes antes de falar na reunião. Recusar o convite para não ter que conversar com desconhecidos. Passar a noite repassando o que disse. A ansiedade social vai além de ser tímido.",
+ _ALE, "ansiedade social",
+"""
+<h2>O que é ansiedade social</h2>
+<p>Ansiedade social é um medo forte e persistente de situações em que a pessoa pode ser observada, avaliada ou julgada pelos outros. O medo não é das pessoas em si, mas de passar vergonha, parecer estranho ou ser rejeitado.</p>
+<p>Ela pode aparecer em situações bem específicas, como falar em público, ou em quase todas as interações: conversar com colegas, pedir algo no restaurante, fazer uma ligação, comer na frente de alguém.</p>
+
+<h2>Sinais comuns</h2>
+<ul>
+<li>Preocupação intensa dias antes de um evento social.</li>
+<li>Corpo em alerta durante a interação: rosto vermelho, tremor, suor, voz falhando, coração acelerado.</li>
+<li>Sensação de que todo mundo está reparando em você.</li>
+<li>Evitar situações, chegar atrasado para não ter que conversar, sair cedo.</li>
+<li>Ficar horas, depois, revendo cada frase e cada gesto.</li>
+<li>Deixar de fazer coisas importantes, como ir a entrevistas ou se candidatar a uma vaga, por causa do medo.</li>
+</ul>
+<p>Se você se reconheceu, isso não é um diagnóstico. É um sinal de que vale conversar com uma profissional.</p>
+
+<h2>Timidez ou ansiedade social?</h2>
+<p>Timidez é um traço de personalidade: a pessoa demora a se soltar, prefere grupos pequenos, mas vai aos lugares e consegue aproveitar. Na ansiedade social, o medo é intenso, dura meses e começa a limitar a vida: a pessoa deixa de fazer o que quer ou precisa para não passar pela situação temida.</p>
+
+<h2>O ciclo que mantém o medo</h2>
+<p>Evitar a situação traz alívio na hora. Mas, sem passar por ela, a pessoa nunca descobre que conseguiria lidar, e o medo cresce. Algumas estratégias de “segurança”, como ensaiar tudo, não olhar nos olhos ou ficar no celular, também mantêm o ciclo, porque reforçam a ideia de que sem elas algo terrível aconteceria.</p>
+
+<h2>O que pode ajudar</h2>
+<ul>
+<li><strong>Começar por situações pequenas</strong> e ir aumentando aos poucos, em vez de evitar tudo.</li>
+<li><strong>Tirar a atenção de si</strong> durante a conversa e colocar no outro e no assunto.</li>
+<li><strong>Questionar a leitura de pensamento.</strong> “Ela achou que eu sou estranho” é uma suposição, não um fato.</li>
+<li><strong>Respirar soltando o ar devagar</strong> antes de entrar numa situação difícil.</li>
+</ul>
+
+<h2>Como a terapia ajuda</h2>
+<p>As terapias comportamentais estão entre as abordagens mais estudadas para ansiedade social. Na terapia, trabalhamos a aproximação gradual das situações temidas, as habilidades sociais e a relação com os pensamentos de julgamento, com base na Análise do Comportamento e na <a href="/terapia-act/">ACT</a>. Para muita gente com ansiedade social, começar online é um passo mais fácil.</p>
+""" + _CVV,
+ [("Ansiedade social é o mesmo que fobia social?", "Os dois termos costumam ser usados como sinônimos. O nome mais usado hoje entre profissionais é transtorno de ansiedade social, mas só uma avaliação pode dizer se é o seu caso."),
+  ("Ansiedade social tem tratamento?", "Sim. A psicoterapia é um dos tratamentos mais estudados, e em alguns casos o médico pode indicar medicação junto."),
+  ("Terapia online funciona para ansiedade social?", "Sim, e para muitas pessoas é a forma mais acessível de começar. Ao longo do processo, a terapia também trabalha as situações presenciais.")],
+ "O medo de ser julgado está te impedindo de viver?",
+ 'Leia também: <a href="/blog/sintomas-fisicos-da-ansiedade/">sintomas físicos da ansiedade</a> e <a href="/blog/autocritica-excessiva/">autocrítica excessiva</a>.'),
+
+_art("procrastinacao-do-sono", "Procrastinação do sono por vingança",
+ "Procrastinação do sono por vingança: por que a gente não vai dormir",
+ "Você está exausto, mas fica no celular até tarde porque é o único tempo seu. Entenda a procrastinação do sono por vingança e como sair dela.",
+ "Procrastinação do sono", "Procrastinação do sono por vingança: <em>por que a gente não vai dormir</em>",
+ "Meia-noite, olhos ardendo, e mesmo assim mais um vídeo, mais um episódio. Não é falta de juízo: muitas vezes é a única hora do dia que parece ser sua.",
+ _ALE, "procrastinação do sono",
+"""
+<h2>O que é</h2>
+<p>“Procrastinação do sono por vingança” é a tradução de uma expressão que surgiu na China e se espalhou nas redes. Descreve o hábito de adiar a hora de dormir, mesmo cansado, para ter algum tempo livre que o dia não deixou. A “vingança” é contra uma rotina que ocupou tudo: trabalho, filhos, casa, deslocamento.</p>
+<p>Não é um diagnóstico. É um nome para um comportamento muito comum, principalmente entre quem tem jornadas longas e pouco controle sobre o próprio tempo.</p>
+
+<h2>Sinais de que está acontecendo com você</h2>
+<ul>
+<li>Você sabe que deveria dormir, mas fica no celular ou na TV sem nem aproveitar muito.</li>
+<li>A noite é o único momento em que ninguém te pede nada.</li>
+<li>Acorda cansado, promete dormir cedo, e à noite repete.</li>
+<li>A sensação é de que o dia foi todo dos outros.</li>
+</ul>
+
+<h2>Por que é tão difícil parar</h2>
+<p>Quando o dia é todo de obrigações, o tempo noturno vira recompensa, autonomia e descanso mental ao mesmo tempo. Ir dormir parece abrir mão disso. E o cansaço, ironicamente, deixa mais difícil resistir ao impulso de continuar rolando a tela.</p>
+<p>O preço vem no dia seguinte: menos energia, mais irritação, mais dificuldade de concentração e mais vulnerabilidade à ansiedade. Com o tempo, pode fazer parte do caminho para o <a href="/sindrome-de-burnout/">burnout</a>.</p>
+
+<h2>O que pode ajudar</h2>
+<ul>
+<li><strong>Criar um pedaço de tempo seu durante o dia</strong>, mesmo curto: 20 minutos no almoço, uma caminhada, um café sem tela. Se o dia tiver algum espaço seu, a noite precisa compensar menos.</li>
+<li><strong>Fazer o lazer da noite mais cedo</strong> e com fim definido, como um episódio em vez de autoplay.</li>
+<li><strong>Deixar o celular longe da cama</strong> e usar um despertador comum.</li>
+<li><strong>Olhar para a rotina com honestidade.</strong> Se não sobra tempo nenhum, o problema talvez não seja a noite, e sim o excesso de demandas.</li>
+</ul>
+
+<h2>Quando procurar ajuda</h2>
+<p>Se o sono ruim já está afetando seu humor, seu trabalho ou sua saúde, ou se a sensação de não ter vida própria é constante, vale procurar acompanhamento. Problemas de sono persistentes também merecem avaliação médica. Na terapia, olhamos para a rotina, os limites e o que importa para você, com apoio da <a href="/terapia-act/">ACT</a>.</p>
+""" + _CVV,
+ [("Isso é um transtorno do sono?", "Não necessariamente. É um comportamento de adiar a hora de dormir. Se a insônia continua mesmo quando você vai para a cama cedo, vale procurar um médico."),
+  ("Por que eu faço isso mesmo sabendo que vou me arrepender?", "Porque o alívio de ter tempo para si acontece agora, e o cansaço só chega amanhã. O cérebro tende a dar mais peso ao que é imediato."),
+  ("Terapia ajuda com isso?", "Pode ajudar, principalmente quando a procrastinação do sono vem junto com sobrecarga, ansiedade ou dificuldade de pôr limites.")],
+ "Sente que o dia nunca é seu?",
+ 'Leia também: <a href="/blog/procrastinacao/">procrastinação</a>, <a href="/sindrome-de-burnout/">síndrome de burnout</a> e <a href="/blog/como-sair-do-burnout/">como sair do burnout</a>.', read="5 min"),
+]
