@@ -62,7 +62,7 @@ def build(p):
 <link rel="icon" href="/favicon-32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/tema.css?v={VERSION}">
 <script type="application/ld+json">{json.dumps(faq_ld, ensure_ascii=False)}</script>
 </head>
@@ -135,7 +135,7 @@ def build_blog_index(arts):
 <link rel="canonical" href="{SITE}/blog/">
 <link rel="icon" href="/favicon-32.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/tema.css?v={VERSION}">
 </head><body>
 <header class="top"><a href="/" aria-label="Letícia Freitas Psicóloga, página inicial"><img src="/images/logo_leticia_dark.svg" alt="Letícia Freitas Psicóloga" width="140" height="34"></a></header>
