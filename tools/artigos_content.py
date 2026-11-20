@@ -180,4 +180,119 @@ ARTICLES = [
         "cta_text": "Me manda uma mensagem com as perguntas que você tiver. Eu respondo e explico como funciona o atendimento, online ou presencial.",
         "related": 'Leia também: <a href="/blog/burnout-ou-cansaco/">burnout ou cansaço?</a> e <a href="/regulacao-emocional/">o que é regulação emocional</a>.',
     },
+    {
+        "kind": "article",
+        "slug": "tensao-muscular-e-ansiedade",
+        "date": "2026-11-20", "date_br": "20 de novembro de 2026", "read": "5 min",
+        "crumb": "Tensão muscular, mandíbula travada e ansiedade",
+        "title": "Tensão muscular, mandíbula travada e ansiedade: qual a ligação | Letícia Freitas",
+        "desc": "Ombros duros, dor no pescoço, dentes apertados ao acordar. Entenda por que a ansiedade se acumula nos músculos e o que ajuda a soltar.",
+        "about": "Tensão muscular e ansiedade",
+        "h1": "Tensão muscular, mandíbula travada e ansiedade: <em>o corpo segurando o que a cabeça carrega</em>",
+        "lead": "Ombros que vivem perto das orelhas, pescoço duro no fim do dia, a mandíbula doendo ao acordar. Muitas vezes a ansiedade aparece primeiro nos músculos, antes de a gente perceber que está ansioso.",
+        "cta_hero": "Conversar com a Letícia",
+        "img": {"src": "images/cards/sobrecarga-640.webp", "og": "images/espaco/sala-ampla.jpg", "alt": "Mesa de trabalho com notebook e café ao anoitecer"},
+        "wa_msg": "Olá, Letícia! Li seu texto sobre tensão muscular e ansiedade e gostaria de conversar sobre um atendimento.",
+        "body": """
+<h2>Por que a ansiedade vai parar nos músculos</h2>
+<p>Quando o corpo entra em estado de alerta, os músculos se preparam para agir. Isso é útil por alguns minutos. O problema é quando o alerta não desliga: a contração vira um estado de fundo, e a gente passa o dia inteiro “segurando” o corpo sem perceber.</p>
+<p>Com o tempo, essa tensão constante vira dor, cansaço e até dificuldade para dormir. E a dor, por sua vez, deixa a pessoa mais irritada e mais atenta ao corpo, o que alimenta a ansiedade.</p>
+
+<h2>Onde ela costuma aparecer</h2>
+<ul>
+<li><strong>Ombros e pescoço</strong>: rigidez, sensação de peso, dor no fim do dia.</li>
+<li><strong>Mandíbula</strong>: dentes apertados de dia ou à noite, dor perto do ouvido, desgaste nos dentes. O dentista costuma ser o primeiro a notar.</li>
+<li><strong>Cabeça</strong>: dor em faixa, como se algo apertasse em volta.</li>
+<li><strong>Costas</strong>: principalmente na parte de cima, entre as escápulas.</li>
+<li><strong>Barriga e respiração</strong>: abdômen contraído, respiração curta e alta.</li>
+</ul>
+
+<h2>Antes de tudo, avaliação profissional</h2>
+<p>Dor muscular, dor de cabeça e dor na mandíbula têm muitas causas possíveis. Vale passar por um médico, um dentista ou um fisioterapeuta para avaliar. Quando as causas físicas são tratadas ou descartadas e a tensão continua, o lado emocional merece atenção.</p>
+
+<h2>O que ajuda a soltar</h2>
+<ul>
+<li><strong>Checagens ao longo do dia.</strong> Coloque um lembrete no celular: ombros, mandíbula, barriga. Perceba e solte. Parece pouco, mas quebra o automático.</li>
+<li><strong>Língua solta, dentes separados.</strong> Em repouso, os dentes não deveriam se tocar.</li>
+<li><strong>Respiração com expiração longa.</strong> Soltar o ar devagar, por mais tempo do que puxa, ajuda o corpo a sair do alerta.</li>
+<li><strong>Contrair e soltar.</strong> Apertar um grupo de músculos por alguns segundos e depois soltar ajuda a perceber a diferença entre tenso e relaxado.</li>
+<li><strong>Movimento.</strong> Caminhada, alongamento e atividade física regular reduzem a tensão acumulada.</li>
+</ul>
+
+<h2>Quando a tensão é sinal de algo maior</h2>
+<p>Se o corpo vive tenso, vale olhar para o que está gerando esse alerta: sobrecarga, preocupação constante, dificuldade de dizer não, autocobrança. Reconhecer esses sinais não é um diagnóstico, mas é um bom motivo para conversar com uma profissional.</p>
+<p>Na terapia, a gente trabalha o que mantém o corpo em alerta e constrói, aos poucos, outras formas de lidar com a pressão. Atendo online e presencialmente em Vitória da Conquista.</p>
+""",
+        "faq": [
+            ("Ansiedade pode causar dor no pescoço e nos ombros?", "Pode. A tensão muscular é um dos sinais físicos mais comuns da ansiedade. Mesmo assim, vale fazer uma avaliação médica ou fisioterapêutica para descartar outras causas."),
+            ("Apertar os dentes à noite tem a ver com ansiedade?", "O estresse é um dos fatores ligados ao bruxismo, mas não o único. O dentista avalia e indica proteção para os dentes quando necessário."),
+            ("Exercícios de relaxamento resolvem?", "Ajudam bastante no dia a dia. Quando a tensão é constante e vem junto com preocupação ou sobrecarga, a terapia ajuda a trabalhar a origem."),
+        ],
+        "cta_title": "Sente o corpo sempre tenso?",
+        "cta_text": "Me manda uma mensagem. Você conta um pouco do que está vivendo e eu explico como funcionaria o atendimento, online ou presencial.",
+        "related": 'Leia também: <a href="/blog/sintomas-fisicos-da-ansiedade/">sintomas físicos da ansiedade</a> e <a href="/blog/tecnicas-de-regulacao-emocional/">técnicas de regulação emocional</a>.',
+    },
+    {
+        "kind": "article",
+        "slug": "tecnicas-de-regulacao-emocional",
+        "date": "2026-11-20", "date_br": "20 de novembro de 2026", "read": "6 min",
+        "crumb": "Técnicas de regulação emocional para o dia a dia",
+        "title": "Técnicas de regulação emocional para o dia a dia | Letícia Freitas",
+        "desc": "Estratégias práticas para lidar com emoções intensas: antes, durante e depois de um momento difícil. Inclui o que evitar e quando procurar terapia.",
+        "about": "Técnicas de regulação emocional",
+        "h1": "Técnicas de regulação emocional <em>para o dia a dia</em>",
+        "lead": "Não existe técnica que faça uma emoção forte sumir na hora. Mas existem formas de deixar o corpo menos vulnerável, atravessar o pico com menos estrago e se recuperar mais rápido.",
+        "cta_hero": "Conversar com a Letícia",
+        "img": {"src": "images/cards/emocoes-640.webp", "og": "images/espaco/sala-ampla.jpg", "alt": "Onda quebrando suavemente sobre pedras na praia"},
+        "wa_msg": "Olá, Letícia! Li seu texto sobre técnicas de regulação emocional e gostaria de conversar sobre um atendimento.",
+        "body": """
+<p>As ideias abaixo vêm de terapias comportamentais com bastante pesquisa, como a <a href="/terapia-dbt/">DBT</a> e a <a href="/terapia-act/">ACT</a>. Elas ajudam muita gente no dia a dia, mas não substituem um acompanhamento quando o sofrimento é grande ou dura muito tempo. Se quiser entender o conceito antes, comece por <a href="/regulacao-emocional/">o que é regulação emocional</a>.</p>
+
+<h2>Antes: diminuir a vulnerabilidade</h2>
+<p>A mesma situação pesa muito mais num dia de pouco sono e muita pressão. Por isso, parte da regulação acontece longe do momento difícil.</p>
+<ul>
+<li><strong>Sono.</strong> Horários parecidos para dormir e acordar fazem diferença no quanto as emoções nos atingem.</li>
+<li><strong>Comida e cafeína.</strong> Pular refeições e exagerar no café deixam o corpo mais reativo.</li>
+<li><strong>Movimento.</strong> Atividade física regular reduz a tensão de fundo.</li>
+<li><strong>Coisas boas de propósito.</strong> Pequenos momentos agradáveis na semana, planejados, não só quando sobra tempo.</li>
+</ul>
+
+<h2>Durante: atravessar o pico</h2>
+<h3>Pausar antes de agir</h3>
+<p>Quando a emoção está no máximo, a vontade é agir na hora: responder, gritar, sair, mandar mensagem. Alguns minutos de pausa entre sentir e agir já mudam o resultado. Vale combinar consigo mesmo: “se eu estiver com raiva, não respondo agora”.</p>
+<h3>Mudar o corpo</h3>
+<p>Água fria no rosto, respiração com expiração longa ou alguns minutos de exercício intenso ajudam o corpo a baixar a ativação. São formas de ganhar tempo, não de resolver o problema.</p>
+<h3>Dar nome ao que sente</h3>
+<p>“Estou com raiva” é menos do que “estou com raiva porque me senti ignorada e isso me lembra outras vezes”. Quanto mais preciso o nome, mais fácil decidir o que fazer.</p>
+<h3>Agir de forma oposta à emoção, quando ela não ajuda</h3>
+<p>Se o medo diz para evitar algo que é seguro e importante, aproximar-se aos poucos. Se a raiva diz para atacar, afastar-se com calma. Isso só vale quando a emoção não está protegendo você de um perigo real.</p>
+
+<h2>Depois: recuperar e aprender</h2>
+<ul>
+<li><strong>Voltar ao básico</strong>: comer, beber água, descansar.</li>
+<li><strong>Olhar para o que aconteceu sem se atacar.</strong> O que disparou? O que você sentiu? O que fez? O que gostaria de ter feito?</li>
+<li><strong>Reparar quando for o caso.</strong> Conversar com quem foi afetado, sem se diminuir.</li>
+</ul>
+
+<h2>O que costuma piorar</h2>
+<ul>
+<li>Tentar não sentir a qualquer custo, empurrando a emoção para baixo.</li>
+<li>Remoer o que aconteceu por horas.</li>
+<li>Usar álcool, comida ou telas como único jeito de se acalmar.</li>
+<li>Se criticar duramente depois de cada momento difícil.</li>
+</ul>
+
+<h2>Quando procurar terapia</h2>
+<p>Se as emoções estão afetando relacionamentos, trabalho ou saúde, ou se os momentos difíceis estão cada vez mais frequentes, vale procurar ajuda. Na terapia, essas habilidades são treinadas com acompanhamento e adaptadas à sua vida. Atendo online e presencialmente em Vitória da Conquista.</p>
+<div class="note"><strong>Em uma crise agora?</strong> Se você corre risco, ligue para o CVV no 188 (24 horas, gratuito) ou procure o pronto atendimento mais próximo.</div>
+""",
+        "faq": [
+            ("Qual a técnica de regulação emocional mais rápida?", "Para baixar a ativação do corpo na hora, mudanças físicas como água fria no rosto e respiração com expiração longa costumam agir mais rápido. Elas ajudam a ganhar tempo para decidir o que fazer."),
+            ("Regular emoções é o mesmo que reprimir?", "Não. Reprimir é empurrar a emoção para baixo. Regular é perceber, dar nome e escolher como agir, deixando a emoção existir."),
+            ("Essas técnicas substituem terapia?", "Não. Elas ajudam no dia a dia, mas quando o sofrimento é grande ou frequente, o acompanhamento profissional faz diferença."),
+        ],
+        "cta_title": "Quer treinar essas habilidades com acompanhamento?",
+        "cta_text": "Me manda uma mensagem. A gente conversa sobre o que você está vivendo e sobre como funcionaria o atendimento, online ou presencial.",
+        "related": 'Leia também: <a href="/regulacao-emocional/">o que é regulação emocional</a> e <a href="/terapia-dbt/">como funciona a terapia DBT</a>.',
+    },
 ]

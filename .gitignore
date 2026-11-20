@@ -33,3 +33,4 @@ blog/wp-content/themes/*
 ehthumbs.db
 Desktop.ini
 .impeccable/
+__pycache__/

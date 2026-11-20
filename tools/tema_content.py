@@ -55,7 +55,7 @@ PAGES = [
         ],
         "cta_title": "Quer entender se a DBT faz sentido para você?",
         "cta_text": "Me manda uma mensagem. A gente conversa sobre o que você está vivendo e sobre como funcionaria o atendimento, online ou presencial.",
-        "related": 'Leia também: <a href="/regulacao-emocional/">o que é regulação emocional e como ela se aprende</a>.',
+        "related": 'Leia também: <a href="/regulacao-emocional/">o que é regulação emocional</a>, <a href="/terapia-act/">Terapia ACT</a> e <a href="/blog/tecnicas-de-regulacao-emocional/">técnicas de regulação emocional</a>.',
     },
     {
         "slug": "regulacao-emocional",
@@ -113,6 +113,59 @@ PAGES = [
         ],
         "cta_title": "Quer conversar sobre o que você está sentindo?",
         "cta_text": "Me manda uma mensagem. Você conta um pouco do que está vivendo e eu explico como funcionaria o atendimento, online ou presencial.",
-        "related": 'Leia também: <a href="/terapia-dbt/">como funciona a terapia DBT</a>.',
+        "related": 'Leia também: <a href="/terapia-dbt/">Terapia DBT</a>, <a href="/terapia-act/">Terapia ACT</a> e <a href="/blog/tecnicas-de-regulacao-emocional/">técnicas de regulação emocional</a>.',
+    },
+    {
+        "slug": "terapia-act",
+        "crumb": "Terapia ACT",
+        "title": "Terapia ACT (Aceitação e Compromisso) online e em Vitória da Conquista | Letícia Freitas",
+        "desc": "O que é a Terapia de Aceitação e Compromisso (ACT), como ela trabalha ansiedade, autocrítica e piloto automático, e como é o atendimento online ou presencial.",
+        "about": "Terapia de Aceitação e Compromisso (ACT)",
+        "h1": "Terapia ACT: <em>viver o que importa</em>, mesmo quando a cabeça não ajuda",
+        "lead": "A ACT não tenta calar pensamentos difíceis à força. Ela ajuda a mudar a relação com eles, para que você volte a escolher o rumo da sua vida. Atendo online e em Vitória da Conquista.",
+        "cta_hero": "Conversar sobre a terapia",
+        "img": {"src": "images/cards/piloto-640.webp", "og": "images/espaco/sala-ampla.jpg", "alt": "Janela com lista de tarefas riscadas e vista da cidade"},
+        "wa_msg": "Olá, Letícia! Li sobre a terapia ACT no seu site e gostaria de conversar sobre um atendimento.",
+        "body": """
+<h2>Talvez você se reconheça aqui</h2>
+<p>A cabeça não desliga. Um pensamento puxa outro: e se der errado, e se eu não for bom o suficiente, e se perceberem. Você tenta não pensar nisso, se distrair, se convencer do contrário, e o pensamento volta mais forte.</p>
+<p>Ou então a vida está andando no automático: trabalho, casa, celular, e aquela pergunta de vez em quando, “mas é isso?”. Você sabe o que gostaria de fazer diferente, mas algo sempre impede.</p>
+<p>Se você se identificou, isso não é um diagnóstico. É um bom motivo para conversar com uma profissional e entender o que está acontecendo no seu caso.</p>
+
+<h2>O que é a ACT</h2>
+<p>A ACT (Acceptance and Commitment Therapy, ou Terapia de Aceitação e Compromisso) foi desenvolvida pelo psicólogo Steven Hayes e colegas. Ela faz parte das terapias comportamentais e tem muitas pesquisas em ansiedade, estresse, dor crônica e outras situações.</p>
+<p>A ideia central é simples de dizer e difícil de fazer: lutar contra o que sentimos costuma aumentar o sofrimento. Em vez de gastar energia tentando eliminar pensamentos e emoções desconfortáveis, a ACT ensina a abrir espaço para eles e a direcionar a energia para aquilo que dá sentido à sua vida.</p>
+
+<h2>O que se trabalha na ACT</h2>
+<h3>Aceitação</h3>
+<p>Deixar emoções difíceis existirem sem brigar com elas, o que costuma diminuir o peso que elas têm.</p>
+<h3>Distanciamento dos pensamentos</h3>
+<p>Perceber que um pensamento é um pensamento, e não uma ordem ou uma verdade sobre você.</p>
+<h3>Presença</h3>
+<p>Voltar a atenção para o que está acontecendo agora, e não para o que a cabeça projeta.</p>
+<h3>Valores</h3>
+<p>Descobrir o que importa de verdade para você: nas relações, no trabalho, no cuidado consigo.</p>
+<h3>Ação com compromisso</h3>
+<p>Dar passos concretos na direção desses valores, mesmo quando o medo ou a dúvida aparecem.</p>
+
+<h2>Como é a terapia comigo</h2>
+<p>Minha base é a Análise do Comportamento, e uso a ACT junto com a <a href="/terapia-dbt/">DBT</a> conforme o que faz sentido para cada pessoa. Nas primeiras sessões, a gente entende o que está pesando, o que você já tentou e onde quer chegar. A partir daí, combinamos o caminho.</p>
+<ul>
+<li>Sessões individuais semanais, de cerca de 50 minutos.</li>
+<li>Presencial no Espaço Viver, no bairro Recreio, em Vitória da Conquista.</li>
+<li>Online por videochamada, para todo o Brasil e para brasileiros que moram fora.</li>
+<li>Atendo adolescentes e adultos.</li>
+</ul>
+<div class="note"><strong>Em uma crise agora?</strong> A terapia não é um serviço de emergência. Se você corre risco, ligue para o CVV no 188 (24 horas, gratuito) ou procure o pronto atendimento mais próximo.</div>
+""",
+        "faq": [
+            ("Aceitar significa desistir ou se conformar?", "Não. Na ACT, aceitar é parar de lutar contra o que você sente para conseguir agir. A mudança continua sendo o objetivo, só que focada no que está ao seu alcance."),
+            ("A ACT serve para ansiedade?", "É uma das situações em que a ACT tem mais pesquisas. Se ela faz sentido para o seu caso é algo que avaliamos nas primeiras sessões."),
+            ("Qual a diferença entre ACT e DBT?", "As duas são terapias comportamentais. A ACT foca na relação com pensamentos e emoções e em agir de acordo com valores. A DBT ensina habilidades práticas para regular emoções intensas e atravessar crises."),
+            ("A terapia ACT funciona online?", "Sim. O trabalho acontece da mesma forma por videochamada."),
+        ],
+        "cta_title": "Quer entender se a ACT faz sentido para você?",
+        "cta_text": "Me manda uma mensagem. A gente conversa sobre o que você está vivendo e sobre como funcionaria o atendimento, online ou presencial.",
+        "related": 'Leia também: <a href="/terapia-dbt/">Terapia DBT</a> e <a href="/regulacao-emocional/">regulação emocional</a>.',
     },
 ]
