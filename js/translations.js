@@ -162,7 +162,13 @@ const TRANSLATIONS = {
     // LOCALIZAÇÃO
     'location.badge': 'Localização',
     'location.title': 'Onde fica o <strong>consultório?</strong>',
-    'location.address': 'Maria Maria · Psicologia · Centro<br><strong>Vitória da Conquista, BA</strong> · (77) 9 3518-0580',
+    'location.address': 'Espaço Viver · R. Dom Climério de Andrade, 145 · Recreio<br><strong>Vitória da Conquista, BA</strong> · CEP 45020-390',
+    'location.route': 'Como chegar',
+    'espaco.title': 'Um espaço pensado para você <em>se sentir à vontade</em>',
+    'espaco.text': 'O consultório fica no Espaço Viver, uma casa no bairro Recreio com recepção, sala de espera e salas reservadas. A sala de atendimento é silenciosa, climatizada e tem luz baixa, para a conversa acontecer sem pressa.',
+    'espaco.cap1': 'Fachada do Espaço Viver',
+    'espaco.cap2': 'Recepção',
+    'espaco.cap3': 'Sala de atendimento',
     'location.btn': 'Agendar consulta',
 
     // FOOTER
@@ -348,7 +354,13 @@ const TRANSLATIONS = {
     // LOCATION
     'location.badge': 'Location',
     'location.title': 'Where is the <strong>practice?</strong>',
-    'location.address': 'Maria Maria · Psychology · Downtown<br><strong>Vitória da Conquista, BA</strong> · (77) 9 3518-0580',
+    'location.address': 'Espaço Viver · R. Dom Climério de Andrade, 145 · Recreio<br><strong>Vitória da Conquista, BA, Brazil</strong> · ZIP 45020-390',
+    'location.route': 'Get directions',
+    'espaco.title': 'A space designed for you to <em>feel at ease</em>',
+    'espaco.text': 'The practice is at Espaço Viver, a house in the Recreio neighborhood with a reception area, waiting room and private rooms. The therapy room is quiet, air-conditioned and softly lit, so the conversation can happen without rush.',
+    'espaco.cap1': 'Espaço Viver entrance',
+    'espaco.cap2': 'Reception',
+    'espaco.cap3': 'Therapy room',
     'location.btn': 'Book a session',
 
     // FOOTER

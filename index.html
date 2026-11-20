@@ -113,16 +113,13 @@
       ],
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Centro",
+        "streetAddress": "R. Dom Climério de Andrade, 145 - Recreio",
+        "postalCode": "45020-390",
         "addressLocality": "Vitória da Conquista",
         "addressRegion": "BA",
         "addressCountry": "BR"
       },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": -14.8658,
-        "longitude": -40.8445
-      },
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Espa%C3%A7o+Viver+R.+Dom+Clim%C3%A9rio+de+Andrade+145+Recreio+Vit%C3%B3ria+da+Conquista+BA",
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
@@ -694,18 +691,61 @@
 <!-- LOCALIZAÇÃO -->
 <section class="section-localizacao" id="contato">
   <div class="banner-consultorio">
-    <img src="images/consultorio.jpg" class="background-img" alt="Consultório Letícia Freitas - Vitória da Conquista" width="1200" height="518">
+    <picture>
+      <source srcset="images/espaco/sala-ampla-800.webp 800w, images/espaco/sala-ampla.webp 1600w" sizes="100vw" type="image/webp">
+      <img src="images/espaco/sala-ampla.jpg" class="background-img" alt="Sala de atendimento da Letícia Freitas no Espaço Viver, com poltronas, tapete e luz suave" width="1600" height="1200" loading="lazy" decoding="async">
+    </picture>
     <div class="banner-overlay">
       <span class="banner-badge" data-i18n="location.badge">Localização</span>
       <h2 class="banner-title" data-i18n-html="location.title">Onde fica o <strong>consultório?</strong></h2>
       <p class="banner-address" data-i18n-html="location.address">
-        Maria Maria · Psicologia · Centro<br>
-        <strong>Vitória da Conquista, BA</strong> · (77) 9 3518-0580
+        Espaço Viver · R. Dom Climério de Andrade, 145 · Recreio<br>
+        <strong>Vitória da Conquista, BA</strong> · CEP 45020-390
       </p>
-      <a href="https://wa.me/5577991105582" class="btn-banner-light">
-        <svg width="16" height="16" fill="#1a2e25" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.535 5.858L.057 23.5l5.77-1.507A11.95 11.95 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.85 0-3.587-.502-5.077-1.378l-.361-.215-3.425.895.916-3.32-.235-.374A9.96 9.96 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
-        <span data-i18n="location.btn">Agendar consulta</span>
-      </a>
+      <div class="banner-actions">
+        <a href="https://wa.me/5577991105582" class="btn-banner-light" data-wa-origem="localizacao">
+          <svg width="16" height="16" fill="#1a2e25" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.535 5.858L.057 23.5l5.77-1.507A11.95 11.95 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.85 0-3.587-.502-5.077-1.378l-.361-.215-3.425.895.916-3.32-.235-.374A9.96 9.96 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+          <span data-i18n="location.btn">Agendar consulta</span>
+        </a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Espa%C3%A7o+Viver+R.+Dom+Clim%C3%A9rio+de+Andrade+145+Recreio+Vit%C3%B3ria+da+Conquista+BA" class="btn-banner-ghost" target="_blank" rel="noopener">
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+          <span data-i18n="location.route">Como chegar</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="espaco">
+    <div class="espaco-intro">
+      <h3 class="espaco-title" data-i18n-html="espaco.title">Um espaço pensado para você <em>se sentir à vontade</em></h3>
+      <p class="espaco-text" data-i18n="espaco.text">O consultório fica no Espaço Viver, uma casa no bairro Recreio com recepção, sala de espera e salas reservadas. A sala de atendimento é silenciosa, climatizada e tem luz baixa, para a conversa acontecer sem pressa.</p>
+    </div>
+
+    <div class="espaco-galeria">
+      <figure class="eg eg-video">
+        <video autoplay muted loop playsinline preload="none" poster="images/espaco/sala-tour-poster.jpg" aria-label="Vídeo curto mostrando a sala de atendimento">
+          <source src="images/espaco/sala-tour.mp4" type="video/mp4">
+        </video>
+      </figure>
+      <figure class="eg eg-fachada">
+        <picture><source srcset="images/espaco/fachada-800.webp" type="image/webp"><img src="images/espaco/fachada.jpg" alt="Fachada do Espaço Viver, casa com placa vermelha da Viver" width="800" height="1422" loading="lazy" decoding="async"></picture>
+        <figcaption data-i18n="espaco.cap1">Fachada do Espaço Viver</figcaption>
+      </figure>
+      <figure class="eg">
+        <picture><source srcset="images/espaco/recepcao-800.webp" type="image/webp"><img src="images/espaco/recepcao-800.webp" alt="Recepção e sala de espera do Espaço Viver" width="600" height="800" loading="lazy" decoding="async"></picture>
+        <figcaption data-i18n="espaco.cap2">Recepção</figcaption>
+      </figure>
+      <figure class="eg">
+        <picture><img src="images/espaco/sala-poltrona-luz-800.webp" alt="Poltrona com luminária de chão na sala de atendimento" width="600" height="800" loading="lazy" decoding="async"></picture>
+        <figcaption data-i18n="espaco.cap3">Sala de atendimento</figcaption>
+      </figure>
+      <figure class="eg">
+        <picture><img src="images/espaco/sala-detalhe-livros-800.webp" alt="Estante com livros e plantas na sala" width="600" height="800" loading="lazy" decoding="async"></picture>
+      </figure>
+    </div>
+
+    <div class="espaco-mapa">
+      <iframe src="https://www.google.com/maps?q=R.+Dom+Clim%C3%A9rio+de+Andrade,+145+-+Recreio,+Vit%C3%B3ria+da+Conquista+-+BA,+45020-390&output=embed" title="Mapa: Espaço Viver, R. Dom Climério de Andrade, 145, Recreio, Vitória da Conquista" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
 </section>
@@ -755,7 +795,7 @@
         <h3 data-i18n="footer.col3.title">Fale agora</h3>
         <div class="footer-contact-item">
           <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
-          (77) 9 3518-0580
+          (77) 9 9110-5582
         </div>
         <div class="footer-contact-item">
           <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
@@ -800,15 +840,26 @@
 <script src="js/animations.js"></script>
 <!-- Scroll reveal — Intersection Observer + CSS -->
 <script src="js/scroll-reveal.js"></script>
-<!-- Google Ads — conversão: clique no WhatsApp -->
+<!-- WhatsApp: mensagem pronta por origem + conversão Ads + evento GA4 -->
 <script>
   document.addEventListener('DOMContentLoaded', function () {
+    var msgs = {
+      europa: 'Olá, Letícia! Vi seu site e quero saber sobre o atendimento online para brasileiros na Europa.',
+      localizacao: 'Olá, Letícia! Vi seu site e quero agendar uma consulta presencial no Espaço Viver.',
+      padrao: 'Olá, Letícia! Vi seu site e gostaria de agendar uma consulta.'
+    };
     var links = document.querySelectorAll('a[href*="wa.me"], a[href*="api.whatsapp.com"]');
     links.forEach(function (link) {
+      var sec = link.closest('section, header, footer, nav');
+      var origem = link.dataset.waOrigem || (sec && (sec.id || sec.tagName.toLowerCase())) || 'pagina';
+      if (link.href.indexOf('text=') === -1) {
+        var key = /europa/.test(origem) ? 'europa' : (origem === 'contato' || origem === 'localizacao' ? 'localizacao' : 'padrao');
+        link.href = link.href.split('?')[0] + '?text=' + encodeURIComponent(msgs[key]);
+      }
       link.addEventListener('click', function () {
-        gtag('event', 'conversion', {
-          'send_to': 'AW-18087337282/NJXkCP3p6sYcEMK627BD'
-        });
+        if (typeof gtag !== 'function') return;
+        gtag('event', 'conversion', { 'send_to': 'AW-18087337282/NJXkCP3p6sYcEMK627BD' });
+        gtag('event', 'whatsapp_click', { 'origem': origem, 'link_text': (link.innerText || '').trim().slice(0, 40) });
       });
     });
   });
