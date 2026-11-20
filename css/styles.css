@@ -1934,3 +1934,19 @@ footer nav.ft-col a:hover { color: #fff; }
 .ix-media::after, .pc-media::after { background:linear-gradient(180deg, #1a2e2500 58%, #1a2e2559 78%, #1a2e25a6 100%); }
 .ix-media::before, .pc-media::before { background:linear-gradient(180deg, #1a2e2500 25%, #1a2e2540 50%, #1a2e2580 75%, #1a2e25b3 100%); }
 .ix-text h3, .pc-body h3, .ix-text p, .pc-body p { text-shadow:0 1px 12px rgba(10,25,18,.45); }
+
+/* Hover: foto desfocada atrás do texto longo */
+.ix-media img, .pc-media img { transition: transform 1s cubic-bezier(.16,1,.3,1), filter .6s cubic-bezier(.16,1,.3,1); }
+.ix-panel:hover .ix-media img, .ix-panel:focus-visible .ix-media img,
+.ix-panels:not(:hover):not(:focus-within) .ix-panel:first-child .ix-media img,
+.pc-card:hover .pc-media img, .pc-card:focus-visible .pc-media img { filter: blur(6px) brightness(.92); }
+.pc-card:hover .pc-body p, .pc-card:focus-visible .pc-body p { max-height: 420px; }
+
+/* Telas de toque e mobile: texto sempre visível, foto levemente desfocada */
+@media (max-width: 900px), (hover: none) {
+  .ix-text p, .pc-body p { max-height: none !important; opacity: 1 !important; }
+  .ix-media::before, .pc-media::before { opacity: 1; }
+  .ix-media img, .pc-media img { filter: blur(4px) brightness(.92); }
+  .ix-panel { height: auto; min-height: 340px; }
+}
+@media (prefers-reduced-motion: reduce) { .ix-media img, .pc-media img { transition: none; } }
