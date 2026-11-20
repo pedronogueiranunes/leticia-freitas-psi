@@ -55,7 +55,7 @@ PAGES = [
         ],
         "cta_title": "Quer entender se a DBT faz sentido para você?",
         "cta_text": "Me manda uma mensagem. A gente conversa sobre o que você está vivendo e sobre como funcionaria o atendimento, online ou presencial.",
-        "related": 'Leia também: <a href="/regulacao-emocional/">o que é regulação emocional e como ela se aprende</a>.',
+        "related": 'Leia também: <a href="/regulacao-emocional/">o que é regulação emocional</a>, <a href="/terapia-act/">Terapia ACT</a> e <a href="/blog/tecnicas-de-regulacao-emocional/">técnicas de regulação emocional</a>.',
     },
     {
         "slug": "regulacao-emocional",
@@ -113,6 +113,127 @@ PAGES = [
         ],
         "cta_title": "Quer conversar sobre o que você está sentindo?",
         "cta_text": "Me manda uma mensagem. Você conta um pouco do que está vivendo e eu explico como funcionaria o atendimento, online ou presencial.",
-        "related": 'Leia também: <a href="/terapia-dbt/">como funciona a terapia DBT</a>.',
+        "related": 'Leia também: <a href="/terapia-dbt/">Terapia DBT</a>, <a href="/terapia-act/">Terapia ACT</a> e <a href="/blog/tecnicas-de-regulacao-emocional/">técnicas de regulação emocional</a>.',
+    },
+    {
+        "slug": "terapia-act",
+        "crumb": "Terapia ACT",
+        "title": "Terapia ACT (Aceitação e Compromisso) online e em Vitória da Conquista | Letícia Freitas",
+        "desc": "O que é a Terapia de Aceitação e Compromisso (ACT), como ela trabalha ansiedade, autocrítica e piloto automático, e como é o atendimento online ou presencial.",
+        "about": "Terapia de Aceitação e Compromisso (ACT)",
+        "h1": "Terapia ACT: <em>viver o que importa</em>, mesmo quando a cabeça não ajuda",
+        "lead": "A ACT não tenta calar pensamentos difíceis à força. Ela ajuda a mudar a relação com eles, para que você volte a escolher o rumo da sua vida. Atendo online e em Vitória da Conquista.",
+        "cta_hero": "Conversar sobre a terapia",
+        "img": {"src": "images/cards/piloto-640.webp", "og": "images/espaco/sala-ampla.jpg", "alt": "Janela com lista de tarefas riscadas e vista da cidade"},
+        "wa_msg": "Olá, Letícia! Li sobre a terapia ACT no seu site e gostaria de conversar sobre um atendimento.",
+        "body": """
+<h2>Talvez você se reconheça aqui</h2>
+<p>A cabeça não desliga. Um pensamento puxa outro: e se der errado, e se eu não for bom o suficiente, e se perceberem. Você tenta não pensar nisso, se distrair, se convencer do contrário, e o pensamento volta mais forte.</p>
+<p>Ou então a vida está andando no automático: trabalho, casa, celular, e aquela pergunta de vez em quando, “mas é isso?”. Você sabe o que gostaria de fazer diferente, mas algo sempre impede.</p>
+<p>Se você se identificou, isso não é um diagnóstico. É um bom motivo para conversar com uma profissional e entender o que está acontecendo no seu caso.</p>
+
+<h2>O que é a ACT</h2>
+<p>A ACT (Acceptance and Commitment Therapy, ou Terapia de Aceitação e Compromisso) foi desenvolvida pelo psicólogo Steven Hayes e colegas. Ela faz parte das terapias comportamentais e tem muitas pesquisas em ansiedade, estresse, dor crônica e outras situações.</p>
+<p>A ideia central é simples de dizer e difícil de fazer: lutar contra o que sentimos costuma aumentar o sofrimento. Em vez de gastar energia tentando eliminar pensamentos e emoções desconfortáveis, a ACT ensina a abrir espaço para eles e a direcionar a energia para aquilo que dá sentido à sua vida.</p>
+
+<h2>O que se trabalha na ACT</h2>
+<h3>Aceitação</h3>
+<p>Deixar emoções difíceis existirem sem brigar com elas, o que costuma diminuir o peso que elas têm.</p>
+<h3>Distanciamento dos pensamentos</h3>
+<p>Perceber que um pensamento é um pensamento, e não uma ordem ou uma verdade sobre você.</p>
+<h3>Presença</h3>
+<p>Voltar a atenção para o que está acontecendo agora, e não para o que a cabeça projeta.</p>
+<h3>Valores</h3>
+<p>Descobrir o que importa de verdade para você: nas relações, no trabalho, no cuidado consigo.</p>
+<h3>Ação com compromisso</h3>
+<p>Dar passos concretos na direção desses valores, mesmo quando o medo ou a dúvida aparecem.</p>
+
+<h2>Como é a terapia comigo</h2>
+<p>Minha base é a Análise do Comportamento, e uso a ACT junto com a <a href="/terapia-dbt/">DBT</a> conforme o que faz sentido para cada pessoa. Nas primeiras sessões, a gente entende o que está pesando, o que você já tentou e onde quer chegar. A partir daí, combinamos o caminho.</p>
+<ul>
+<li>Sessões individuais semanais, de cerca de 50 minutos.</li>
+<li>Presencial no Espaço Viver, no bairro Recreio, em Vitória da Conquista.</li>
+<li>Online por videochamada, para todo o Brasil e para brasileiros que moram fora.</li>
+<li>Atendo adolescentes e adultos.</li>
+</ul>
+<div class="note"><strong>Em uma crise agora?</strong> A terapia não é um serviço de emergência. Se você corre risco, ligue para o CVV no 188 (24 horas, gratuito) ou procure o pronto atendimento mais próximo.</div>
+""",
+        "faq": [
+            ("Aceitar significa desistir ou se conformar?", "Não. Na ACT, aceitar é parar de lutar contra o que você sente para conseguir agir. A mudança continua sendo o objetivo, só que focada no que está ao seu alcance."),
+            ("A ACT serve para ansiedade?", "É uma das situações em que a ACT tem mais pesquisas. Se ela faz sentido para o seu caso é algo que avaliamos nas primeiras sessões."),
+            ("Qual a diferença entre ACT e DBT?", "As duas são terapias comportamentais. A ACT foca na relação com pensamentos e emoções e em agir de acordo com valores. A DBT ensina habilidades práticas para regular emoções intensas e atravessar crises."),
+            ("A terapia ACT funciona online?", "Sim. O trabalho acontece da mesma forma por videochamada."),
+        ],
+        "cta_title": "Quer entender se a ACT faz sentido para você?",
+        "cta_text": "Me manda uma mensagem. A gente conversa sobre o que você está vivendo e sobre como funcionaria o atendimento, online ou presencial.",
+        "related": 'Leia também: <a href="/terapia-dbt/">Terapia DBT</a> e <a href="/regulacao-emocional/">regulação emocional</a>.',
     },
 ]
+
+PAGES.append({
+    "slug": "sindrome-de-burnout",
+    "crumb": "Síndrome de burnout",
+    "title": "Síndrome de burnout: o que é, sinais e tratamento | Letícia Freitas, psicóloga",
+    "desc": "O que é a síndrome de burnout, os sinais mais comuns, a diferença para o cansaço comum e como a psicoterapia ajuda. Atendimento online e em Vitória da Conquista, BA.",
+    "about": "Síndrome de burnout",
+    "h1": "Síndrome de burnout: quando o trabalho <em>leva mais do que você tem</em>",
+    "lead": "Acordar sem energia, sentir um nó no estômago no domingo à noite, não reconhecer mais o próprio jeito de trabalhar. O burnout não aparece de um dia para o outro, e também não precisa ser enfrentado sozinho.",
+    "cta_hero": "Conversar sobre terapia",
+    "img": {"src": "images/cards/sobrecarga-640.webp", "og": "images/espaco/sala-ampla.jpg", "alt": "Mesa de trabalho com notebook e café ao anoitecer"},
+    "wa_msg": "Olá, Letícia! Li sobre burnout no seu site e gostaria de conversar sobre um atendimento.",
+    "body": """
+<h2>O que é a síndrome de burnout</h2>
+<p>Burnout é um esgotamento ligado ao trabalho. A Organização Mundial da Saúde descreve o quadro como resultado de um estresse no trabalho que se acumulou e não foi bem administrado. Não é preguiça, falta de vocação nem fraqueza: é o que acontece quando a exigência fica alta por tempo demais e o descanso nunca chega a compensar.</p>
+<p>Ele costuma aparecer em três frentes ao mesmo tempo:</p>
+<ul>
+<li><strong>Exaustão</strong>: um cansaço que não passa com fim de semana nem com férias curtas.</li>
+<li><strong>Distanciamento</strong>: irritação, cinismo ou indiferença com o trabalho e com as pessoas dele.</li>
+<li><strong>Sensação de ineficácia</strong>: a impressão de que nada do que você faz é suficiente, mesmo trabalhando mais.</li>
+</ul>
+
+<h2>Sinais que costumam aparecer</h2>
+<ul>
+<li>Dormir mal, ou dormir muito e acordar sem energia do mesmo jeito.</li>
+<li>Dor de cabeça, tensão nos ombros, problemas de estômago, gripes que não vão embora.</li>
+<li>Dificuldade de concentração e esquecimentos que antes não aconteciam.</li>
+<li>Pavor do domingo à noite e alívio só quando o expediente termina.</li>
+<li>Pouca paciência em casa, vontade de se isolar, perda do prazer em coisas que antes animavam.</li>
+<li>Culpa por descansar e a sensação de estar sempre em atraso.</li>
+</ul>
+<p>Reconhecer alguns desses sinais não é um diagnóstico. Vários deles também aparecem em outras condições, inclusive físicas, e só uma avaliação profissional pode dizer o que está acontecendo no seu caso.</p>
+
+<h2>Burnout, cansaço ou depressão?</h2>
+<p>O cansaço comum melhora com descanso. No burnout, o descanso alivia pouco, porque o que pesa é a relação com o trabalho. Já a depressão tende a atingir todas as áreas da vida, não só a profissional. Os quadros podem se misturar, e é por isso que vale uma avaliação com calma. Escrevi mais sobre essa diferença em <a href="/blog/burnout-ou-cansaco/">burnout ou cansaço</a>.</p>
+
+<h2>Por que acontece</h2>
+<p>O burnout não depende só da pessoa. Carga de trabalho alta, pouco controle sobre as próprias tarefas, falta de reconhecimento, conflitos na equipe e valores que não batem com os da empresa pesam muito. Mas alguns jeitos de funcionar deixam o caminho mais curto: dificuldade de dizer não, <strong>autocrítica</strong> forte, perfeccionismo, a ideia de que só vale descansar depois de terminar tudo.</p>
+
+<h2>Como a psicoterapia ajuda</h2>
+<p>Na terapia, o primeiro passo é entender o que está te esgotando e o que mantém esse ciclo funcionando. A partir disso, o trabalho costuma envolver:</p>
+<ul>
+<li>Perceber os sinais de exaustão mais cedo, antes do corpo parar de vez.</li>
+<li>Rever limites, prioridades e o jeito de pedir ajuda no trabalho.</li>
+<li>Diminuir a cobrança interna e a culpa por descansar.</li>
+<li>Reconectar com o que importa para você, dentro e fora do trabalho, com apoio da <a href="/terapia-act/">ACT</a>.</li>
+<li>Lidar com as emoções que aparecem nesse processo, com habilidades da <a href="/terapia-dbt/">DBT</a>.</li>
+</ul>
+<p>Quando necessário, o acompanhamento psicológico caminha junto com o médico, que avalia sono, saúde física e a necessidade de afastamento ou medicação.</p>
+
+<h2>Como é o atendimento comigo</h2>
+<ul>
+<li>Sessões individuais semanais, de cerca de 50 minutos.</li>
+<li>Presencial no Espaço Viver, no bairro Recreio, em Vitória da Conquista.</li>
+<li>Online por videochamada, para todo o Brasil e para brasileiros que moram fora.</li>
+</ul>
+<div class="note"><strong>Em uma crise agora?</strong> A terapia não é um serviço de emergência. Se você corre risco, ligue para o CVV no 188 (24 horas, gratuito) ou procure o pronto atendimento mais próximo.</div>
+""",
+    "faq": [
+        ("Burnout é doença?", "A OMS classifica o burnout como um fenômeno ligado ao trabalho, e não como uma doença mental em si. Isso não diminui o sofrimento: ele afeta o sono, o corpo, as relações e merece cuidado profissional."),
+        ("Psicólogo pode dar atestado por burnout?", "O afastamento do trabalho é uma decisão médica. A psicóloga pode emitir documentos sobre o acompanhamento psicológico, mas a avaliação para afastamento e a eventual medicação ficam com o médico."),
+        ("Preciso sair do emprego para melhorar?", "Não necessariamente. Muitas vezes dá para mudar o jeito de trabalhar, negociar limites e recuperar fôlego no mesmo lugar. Em outros casos, a mudança faz parte do caminho. Essa decisão é sua, e a terapia ajuda a pensar nela com mais clareza."),
+        ("A terapia para burnout funciona online?", "Sim. Para quem está esgotado, não precisar se deslocar costuma até facilitar começar."),
+    ],
+    "cta_title": "Sente que o trabalho está levando mais do que você tem?",
+    "cta_text": "Me manda uma mensagem. A gente conversa sobre o que você está vivendo e sobre como funcionaria o atendimento, online ou presencial.",
+    "related": 'Leia também: <a href="/blog/burnout-ou-cansaco/">burnout ou cansaço?</a>, <a href="/blog/sintomas-fisicos-da-ansiedade/">sintomas físicos da ansiedade</a> e <a href="/terapia-act/">Terapia ACT</a>.',
+})

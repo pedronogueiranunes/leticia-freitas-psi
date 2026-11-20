@@ -180,4 +180,224 @@ ARTICLES = [
         "cta_text": "Me manda uma mensagem com as perguntas que você tiver. Eu respondo e explico como funciona o atendimento, online ou presencial.",
         "related": 'Leia também: <a href="/blog/burnout-ou-cansaco/">burnout ou cansaço?</a> e <a href="/regulacao-emocional/">o que é regulação emocional</a>.',
     },
+    {
+        "kind": "article",
+        "slug": "tensao-muscular-e-ansiedade",
+        "date": "2026-11-20", "date_br": "20 de novembro de 2026", "read": "5 min",
+        "crumb": "Tensão muscular, mandíbula travada e ansiedade",
+        "title": "Tensão muscular, mandíbula travada e ansiedade: qual a ligação | Letícia Freitas",
+        "desc": "Ombros duros, dor no pescoço, dentes apertados ao acordar. Entenda por que a ansiedade se acumula nos músculos e o que ajuda a soltar.",
+        "about": "Tensão muscular e ansiedade",
+        "h1": "Tensão muscular, mandíbula travada e ansiedade: <em>o corpo segurando o que a cabeça carrega</em>",
+        "lead": "Ombros que vivem perto das orelhas, pescoço duro no fim do dia, a mandíbula doendo ao acordar. Muitas vezes a ansiedade aparece primeiro nos músculos, antes de a gente perceber que está ansioso.",
+        "cta_hero": "Conversar com a Letícia",
+        "img": {"src": "images/cards/sobrecarga-640.webp", "og": "images/espaco/sala-ampla.jpg", "alt": "Mesa de trabalho com notebook e café ao anoitecer"},
+        "wa_msg": "Olá, Letícia! Li seu texto sobre tensão muscular e ansiedade e gostaria de conversar sobre um atendimento.",
+        "body": """
+<h2>Por que a ansiedade vai parar nos músculos</h2>
+<p>Quando o corpo entra em estado de alerta, os músculos se preparam para agir. Isso é útil por alguns minutos. O problema é quando o alerta não desliga: a contração vira um estado de fundo, e a gente passa o dia inteiro “segurando” o corpo sem perceber.</p>
+<p>Com o tempo, essa tensão constante vira dor, cansaço e até dificuldade para dormir. E a dor, por sua vez, deixa a pessoa mais irritada e mais atenta ao corpo, o que alimenta a ansiedade.</p>
+
+<h2>Onde ela costuma aparecer</h2>
+<ul>
+<li><strong>Ombros e pescoço</strong>: rigidez, sensação de peso, dor no fim do dia.</li>
+<li><strong>Mandíbula</strong>: dentes apertados de dia ou à noite, dor perto do ouvido, desgaste nos dentes. O dentista costuma ser o primeiro a notar.</li>
+<li><strong>Cabeça</strong>: dor em faixa, como se algo apertasse em volta.</li>
+<li><strong>Costas</strong>: principalmente na parte de cima, entre as escápulas.</li>
+<li><strong>Barriga e respiração</strong>: abdômen contraído, respiração curta e alta.</li>
+</ul>
+
+<h2>Antes de tudo, avaliação profissional</h2>
+<p>Dor muscular, dor de cabeça e dor na mandíbula têm muitas causas possíveis. Vale passar por um médico, um dentista ou um fisioterapeuta para avaliar. Quando as causas físicas são tratadas ou descartadas e a tensão continua, o lado emocional merece atenção.</p>
+
+<h2>O que ajuda a soltar</h2>
+<ul>
+<li><strong>Checagens ao longo do dia.</strong> Coloque um lembrete no celular: ombros, mandíbula, barriga. Perceba e solte. Parece pouco, mas quebra o automático.</li>
+<li><strong>Língua solta, dentes separados.</strong> Em repouso, os dentes não deveriam se tocar.</li>
+<li><strong>Respiração com expiração longa.</strong> Soltar o ar devagar, por mais tempo do que puxa, ajuda o corpo a sair do alerta.</li>
+<li><strong>Contrair e soltar.</strong> Apertar um grupo de músculos por alguns segundos e depois soltar ajuda a perceber a diferença entre tenso e relaxado.</li>
+<li><strong>Movimento.</strong> Caminhada, alongamento e atividade física regular reduzem a tensão acumulada.</li>
+</ul>
+
+<h2>Quando a tensão é sinal de algo maior</h2>
+<p>Se o corpo vive tenso, vale olhar para o que está gerando esse alerta: sobrecarga, preocupação constante, dificuldade de dizer não, autocobrança. Reconhecer esses sinais não é um diagnóstico, mas é um bom motivo para conversar com uma profissional.</p>
+<p>Na terapia, a gente trabalha o que mantém o corpo em alerta e constrói, aos poucos, outras formas de lidar com a pressão. Atendo online e presencialmente em Vitória da Conquista.</p>
+""",
+        "faq": [
+            ("Ansiedade pode causar dor no pescoço e nos ombros?", "Pode. A tensão muscular é um dos sinais físicos mais comuns da ansiedade. Mesmo assim, vale fazer uma avaliação médica ou fisioterapêutica para descartar outras causas."),
+            ("Apertar os dentes à noite tem a ver com ansiedade?", "O estresse é um dos fatores ligados ao bruxismo, mas não o único. O dentista avalia e indica proteção para os dentes quando necessário."),
+            ("Exercícios de relaxamento resolvem?", "Ajudam bastante no dia a dia. Quando a tensão é constante e vem junto com preocupação ou sobrecarga, a terapia ajuda a trabalhar a origem."),
+        ],
+        "cta_title": "Sente o corpo sempre tenso?",
+        "cta_text": "Me manda uma mensagem. Você conta um pouco do que está vivendo e eu explico como funcionaria o atendimento, online ou presencial.",
+        "related": 'Leia também: <a href="/blog/sintomas-fisicos-da-ansiedade/">sintomas físicos da ansiedade</a> e <a href="/blog/tecnicas-de-regulacao-emocional/">técnicas de regulação emocional</a>.',
+    },
+    {
+        "kind": "article",
+        "slug": "tecnicas-de-regulacao-emocional",
+        "date": "2026-11-20", "date_br": "20 de novembro de 2026", "read": "6 min",
+        "crumb": "Técnicas de regulação emocional para o dia a dia",
+        "title": "Técnicas de regulação emocional para o dia a dia | Letícia Freitas",
+        "desc": "Estratégias práticas para lidar com emoções intensas: antes, durante e depois de um momento difícil. Inclui o que evitar e quando procurar terapia.",
+        "about": "Técnicas de regulação emocional",
+        "h1": "Técnicas de regulação emocional <em>para o dia a dia</em>",
+        "lead": "Não existe técnica que faça uma emoção forte sumir na hora. Mas existem formas de deixar o corpo menos vulnerável, atravessar o pico com menos estrago e se recuperar mais rápido.",
+        "cta_hero": "Conversar com a Letícia",
+        "img": {"src": "images/cards/emocoes-640.webp", "og": "images/espaco/sala-ampla.jpg", "alt": "Onda quebrando suavemente sobre pedras na praia"},
+        "wa_msg": "Olá, Letícia! Li seu texto sobre técnicas de regulação emocional e gostaria de conversar sobre um atendimento.",
+        "body": """
+<p>As ideias abaixo vêm de terapias comportamentais com bastante pesquisa, como a <a href="/terapia-dbt/">DBT</a> e a <a href="/terapia-act/">ACT</a>. Elas ajudam muita gente no dia a dia, mas não substituem um acompanhamento quando o sofrimento é grande ou dura muito tempo. Se quiser entender o conceito antes, comece por <a href="/regulacao-emocional/">o que é regulação emocional</a>.</p>
+
+<h2>Antes: diminuir a vulnerabilidade</h2>
+<p>A mesma situação pesa muito mais num dia de pouco sono e muita pressão. Por isso, parte da regulação acontece longe do momento difícil.</p>
+<ul>
+<li><strong>Sono.</strong> Horários parecidos para dormir e acordar fazem diferença no quanto as emoções nos atingem.</li>
+<li><strong>Comida e cafeína.</strong> Pular refeições e exagerar no café deixam o corpo mais reativo.</li>
+<li><strong>Movimento.</strong> Atividade física regular reduz a tensão de fundo.</li>
+<li><strong>Coisas boas de propósito.</strong> Pequenos momentos agradáveis na semana, planejados, não só quando sobra tempo.</li>
+</ul>
+
+<h2>Durante: atravessar o pico</h2>
+<h3>Pausar antes de agir</h3>
+<p>Quando a emoção está no máximo, a vontade é agir na hora: responder, gritar, sair, mandar mensagem. Alguns minutos de pausa entre sentir e agir já mudam o resultado. Vale combinar consigo mesmo: “se eu estiver com raiva, não respondo agora”.</p>
+<h3>Mudar o corpo</h3>
+<p>Água fria no rosto, respiração com expiração longa ou alguns minutos de exercício intenso ajudam o corpo a baixar a ativação. São formas de ganhar tempo, não de resolver o problema.</p>
+<h3>Dar nome ao que sente</h3>
+<p>“Estou com raiva” é menos do que “estou com raiva porque me senti ignorada e isso me lembra outras vezes”. Quanto mais preciso o nome, mais fácil decidir o que fazer.</p>
+<h3>Agir de forma oposta à emoção, quando ela não ajuda</h3>
+<p>Se o medo diz para evitar algo que é seguro e importante, aproximar-se aos poucos. Se a raiva diz para atacar, afastar-se com calma. Isso só vale quando a emoção não está protegendo você de um perigo real.</p>
+
+<h2>Depois: recuperar e aprender</h2>
+<ul>
+<li><strong>Voltar ao básico</strong>: comer, beber água, descansar.</li>
+<li><strong>Olhar para o que aconteceu sem se atacar.</strong> O que disparou? O que você sentiu? O que fez? O que gostaria de ter feito?</li>
+<li><strong>Reparar quando for o caso.</strong> Conversar com quem foi afetado, sem se diminuir.</li>
+</ul>
+
+<h2>O que costuma piorar</h2>
+<ul>
+<li>Tentar não sentir a qualquer custo, empurrando a emoção para baixo.</li>
+<li>Remoer o que aconteceu por horas.</li>
+<li>Usar álcool, comida ou telas como único jeito de se acalmar.</li>
+<li>Se criticar duramente depois de cada momento difícil.</li>
+</ul>
+
+<h2>Quando procurar terapia</h2>
+<p>Se as emoções estão afetando relacionamentos, trabalho ou saúde, ou se os momentos difíceis estão cada vez mais frequentes, vale procurar ajuda. Na terapia, essas habilidades são treinadas com acompanhamento e adaptadas à sua vida. Atendo online e presencialmente em Vitória da Conquista.</p>
+<div class="note"><strong>Em uma crise agora?</strong> Se você corre risco, ligue para o CVV no 188 (24 horas, gratuito) ou procure o pronto atendimento mais próximo.</div>
+""",
+        "faq": [
+            ("Qual a técnica de regulação emocional mais rápida?", "Para baixar a ativação do corpo na hora, mudanças físicas como água fria no rosto e respiração com expiração longa costumam agir mais rápido. Elas ajudam a ganhar tempo para decidir o que fazer."),
+            ("Regular emoções é o mesmo que reprimir?", "Não. Reprimir é empurrar a emoção para baixo. Regular é perceber, dar nome e escolher como agir, deixando a emoção existir."),
+            ("Essas técnicas substituem terapia?", "Não. Elas ajudam no dia a dia, mas quando o sofrimento é grande ou frequente, o acompanhamento profissional faz diferença."),
+        ],
+        "cta_title": "Quer treinar essas habilidades com acompanhamento?",
+        "cta_text": "Me manda uma mensagem. A gente conversa sobre o que você está vivendo e sobre como funcionaria o atendimento, online ou presencial.",
+        "related": 'Leia também: <a href="/regulacao-emocional/">o que é regulação emocional</a> e <a href="/terapia-dbt/">como funciona a terapia DBT</a>.',
+    },
+]
+
+ARTICLES += [
+    {
+        "kind": "article",
+        "slug": "o-que-e-dependencia-emocional",
+        "date": "2026-11-21", "date_br": "21 de novembro de 2026", "read": "6 min",
+        "crumb": "O que é dependência emocional (e como diferenciar de amor)",
+        "title": "O que é dependência emocional e como diferenciar de amor | Letícia Freitas",
+        "desc": "Medo de ficar só, ansiedade quando a outra pessoa some, abrir mão de si para manter a relação. Entenda o que é dependência emocional e quando procurar ajuda.",
+        "about": "Dependência emocional",
+        "h1": "O que é dependência emocional <em>e como diferenciar de amor</em>",
+        "lead": "Gostar muito de alguém é diferente de não conseguir respirar sem essa pessoa. Quando o medo de perder ocupa mais espaço do que a própria relação, vale parar para olhar com cuidado.",
+        "cta_hero": "Conversar com a Letícia",
+        "img": {"src": "images/cards/emocoes-640.webp", "og": "images/espaco/sala-ampla.jpg", "alt": "Onda quebrando suavemente sobre pedras na praia"},
+        "wa_msg": "Olá, Letícia! Li seu texto sobre dependência emocional e gostaria de conversar sobre um atendimento.",
+        "body": """
+<h2>O que é dependência emocional</h2>
+<p>Dependência emocional não é um diagnóstico oficial. É o nome que se usa para um padrão: a pessoa passa a precisar da presença, da aprovação ou da atenção de alguém para se sentir bem, segura ou com valor. Acontece mais em relacionamentos amorosos, mas pode aparecer com amigos, família e até no trabalho.</p>
+<p>Todo mundo depende emocionalmente de quem ama em alguma medida, e isso é saudável. O problema começa quando o vínculo vira a única fonte de segurança e a pessoa vai deixando partes de si pelo caminho para não perder o outro.</p>
+
+<h2>Sinais comuns</h2>
+<ul>
+<li>Ansiedade forte quando a outra pessoa demora a responder ou se afasta um pouco.</li>
+<li>Medo constante de abandono, mesmo sem sinais concretos.</li>
+<li>Dificuldade de dizer não, de discordar ou de pedir o que precisa.</li>
+<li>Abrir mão de amizades, rotina ou planos para estar sempre disponível.</li>
+<li>Ficar numa relação que machuca porque a ideia de ficar só parece pior.</li>
+<li>Sentir que só vale alguma coisa quando está com aquela pessoa.</li>
+</ul>
+<p>Se você se reconheceu em vários pontos, isso não é um diagnóstico. É um sinal de que vale conversar com alguém sobre o que está acontecendo.</p>
+
+<h2>Amor ou dependência?</h2>
+<p>No amor, a presença do outro soma. Você continua tendo seus amigos, seus gostos, suas opiniões, e consegue ficar bem nos momentos em que estão longe. Existe saudade, mas não desespero.</p>
+<p>Na dependência, a relação passa a ocupar tudo. A distância vira ameaça, a discordância vira risco, e a maior parte da energia vai para evitar perder o outro, não para viver o que existe entre vocês.</p>
+
+<h2>De onde costuma vir</h2>
+<p>Não existe uma causa única. Experiências de abandono ou de afeto instável, relações em que era preciso agradar para ser cuidado, baixa autoestima e dificuldade de lidar com emoções intensas costumam aparecer na história de quem vive esse padrão. Entender a própria história ajuda a enxergar que esse jeito de se relacionar foi aprendido, e o que foi aprendido pode mudar.</p>
+
+<h2>Como a terapia ajuda</h2>
+<p>Na terapia, o trabalho não é ensinar a pessoa a não precisar de ninguém. É ajudar a construir uma base própria de segurança, para que os vínculos deixem de ser uma questão de sobrevivência. Isso envolve aprender a tolerar a ansiedade da distância, dizer o que sente e o que precisa, e reconhecer relações que fazem mal.</p>
+<p>Uso a Análise do Comportamento junto com a <a href="/terapia-dbt/">DBT</a>, que tem habilidades específicas para relações e para <a href="/regulacao-emocional/">regulação emocional</a>, e com a <a href="/terapia-act/">ACT</a>. Atendo online e presencialmente em Vitória da Conquista.</p>
+<div class="note"><strong>Se a relação envolve violência</strong>, ameaças ou controle, ligue 180 (Central de Atendimento à Mulher) ou 190 em caso de perigo imediato. Para apoio emocional, o CVV atende pelo 188, 24 horas.</div>
+""",
+        "faq": [
+            ("Dependência emocional tem cura?", "Não é uma doença, então a palavra cura não se aplica bem. É um padrão de relação que pode mudar com o tempo, e a psicoterapia é um dos caminhos para isso."),
+            ("Como saber se estou num relacionamento de dependência?", "Um bom sinal de alerta é quando o medo de perder a pessoa pesa mais do que a vontade de estar com ela, ou quando você deixou de fazer coisas importantes para manter a relação. Uma conversa com uma psicóloga ajuda a olhar para isso com mais clareza."),
+            ("Dá para tratar estando ainda no relacionamento?", "Sim. Não é preciso terminar para começar a terapia. Ela ajuda a entender o que você quer e precisa, e a decidir com mais segurança."),
+        ],
+        "cta_title": "Quer conversar sobre como você se relaciona?",
+        "cta_text": "Me manda uma mensagem. Sem compromisso, a gente vê se faz sentido começar, online ou presencial.",
+        "related": 'Leia também: <a href="/regulacao-emocional/">regulação emocional</a> e <a href="/blog/tecnicas-de-regulacao-emocional/">técnicas de regulação emocional</a>.',
+    },
+    {
+        "kind": "article",
+        "slug": "o-que-fazer-numa-crise-de-ansiedade",
+        "date": "2026-11-21", "date_br": "21 de novembro de 2026", "read": "5 min",
+        "crumb": "O que fazer numa crise de ansiedade",
+        "title": "O que fazer numa crise de ansiedade: passo a passo para a hora | Letícia Freitas",
+        "desc": "Coração disparado, falta de ar, sensação de perder o controle. Um passo a passo simples para atravessar uma crise de ansiedade e saber quando procurar ajuda.",
+        "about": "Crise de ansiedade",
+        "h1": "O que fazer numa crise de ansiedade: <em>um passo a passo para a hora</em>",
+        "lead": "Numa crise, a cabeça não ajuda a pensar. Por isso vale ter um roteiro curto, decidido antes, para usar quando o coração dispara. Salve esta página para ter por perto.",
+        "cta_hero": "Conversar com a Letícia",
+        "img": {"src": "images/cards/alerta-640.webp", "og": "images/espaco/sala-ampla.jpg", "alt": "Mesa de cabeceira com abajur aceso e celular à noite"},
+        "wa_msg": "Olá, Letícia! Li seu texto sobre crise de ansiedade e gostaria de conversar sobre um atendimento.",
+        "body": """
+<h2>Antes de tudo</h2>
+<p>Se é a primeira vez que você sente isso, se há dor forte no peito, falta de ar intensa, desmaio ou se você tem alguma condição cardíaca, procure um pronto atendimento. Crises de ansiedade e problemas físicos podem se parecer, e checar é sempre a escolha certa.</p>
+
+<h2>Na hora da crise</h2>
+<h3>1. Nomeie o que está acontecendo</h3>
+<p>Diga para você, em voz alta se der: “isso é uma crise de ansiedade. É muito desconfortável, mas vai passar”. Os sintomas mais fortes costumam atingir o pico em poucos minutos e depois vão baixando.</p>
+<h3>2. Solte o ar devagar</h3>
+<p>Em vez de tentar puxar mais ar, foque em soltar. Inspire pelo nariz contando até quatro e solte pela boca contando até seis ou oito, como se apagasse uma vela devagar. Repita algumas vezes. Expirar mais longo do que inspira ajuda o corpo a sair do modo de alarme.</p>
+<h3>3. Traga a atenção para fora (técnica 5 4 3 2 1)</h3>
+<p>Olhe em volta e encontre 5 coisas que você vê, 4 que consegue tocar, 3 sons que escuta, 2 cheiros e 1 gosto. Parece simples demais, mas tira a atenção do corpo e devolve ao ambiente.</p>
+<h3>4. Use o frio e o corpo</h3>
+<p>Lavar o rosto com água fria, segurar algo gelado na mão ou apoiar os pés firmes no chão ajuda a baixar a ativação. Se estiver de pé, sente-se.</p>
+<h3>5. Não lute contra a sensação</h3>
+<p>Tentar fazer a crise parar à força costuma aumentar o medo. Deixe as sensações estarem ali, observe como sobem e descem, como uma onda. Você não precisa gostar delas para atravessá-las.</p>
+
+<h2>Depois da crise</h2>
+<ul>
+<li>Descanse um pouco, beba água e evite cafeína nas horas seguintes.</li>
+<li>Anote o que estava acontecendo antes: onde estava, o que pensava, como tinha dormido. Com o tempo, isso mostra padrões.</li>
+<li>Resista à vontade de evitar o lugar ou a situação onde a crise aconteceu. Evitar alivia agora, mas tende a aumentar o medo depois.</li>
+</ul>
+
+<h2>Se você está ajudando alguém</h2>
+<p>Fique por perto, fale devagar e com frases curtas. Convide a pessoa a respirar junto com você. Evite dizer “se acalma” ou “não é nada”: para quem está em crise, a sensação é muito real. Se houver sinais físicos graves, chame ajuda médica.</p>
+
+<h2>Quando procurar uma psicóloga</h2>
+<p>Se as crises se repetem, se você começa a ter medo de ter a próxima, ou se está deixando de sair, trabalhar ou dirigir por causa delas, vale buscar acompanhamento. Na terapia, trabalhamos o que dispara as crises e o ciclo de medo e evitação que as mantém, com base na Análise do Comportamento, na <a href="/terapia-act/">ACT</a> e na <a href="/terapia-dbt/">DBT</a>.</p>
+<div class="note"><strong>Pensando em se machucar ou sem saída?</strong> Ligue para o CVV no 188 (24 horas, gratuito) ou procure o pronto atendimento mais próximo.</div>
+""",
+        "faq": [
+            ("Quanto tempo dura uma crise de ansiedade?", "Em geral, o pico dura alguns minutos e os sintomas vão diminuindo depois. A sensação de cansaço pode durar mais. Se as crises são longas ou frequentes, procure avaliação."),
+            ("Crise de ansiedade e ataque de pânico são a mesma coisa?", "As palavras costumam ser usadas como sinônimos no dia a dia. Profissionalmente, o ataque de pânico é um pico súbito e intenso de medo com sintomas físicos fortes. Só uma avaliação pode dizer o que acontece no seu caso."),
+            ("Crise de ansiedade pode matar?", "A crise em si não costuma ser perigosa, embora a sensação seja assustadora. Como os sintomas se parecem com problemas do coração, sempre procure atendimento médico se tiver dúvida."),
+        ],
+        "cta_title": "As crises estão se repetindo?",
+        "cta_text": "Me manda uma mensagem. A gente conversa sobre o que você está vivendo e como funcionaria o atendimento, online ou presencial.",
+        "related": 'Leia também: <a href="/blog/sintomas-fisicos-da-ansiedade/">sintomas físicos da ansiedade</a> e <a href="/blog/tensao-muscular-e-ansiedade/">tensão muscular e ansiedade</a>.',
+    },
 ]

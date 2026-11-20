@@ -144,7 +144,7 @@ def build_blog_index(arts):
 <h1>Textos para entender <em>o que você sente</em></h1>
 <p class="lead">Ansiedade, emoções intensas, trabalho e vida longe de casa, explicados sem jargão.</p>
 <div class="posts">{cards}</div>
-<p class="related">Páginas de tema: <a href="/terapia-dbt/">Terapia DBT</a> · <a href="/regulacao-emocional/">Regulação emocional</a></p>
+<p class="related">Páginas de tema: <a href="/terapia-dbt/">Terapia DBT</a> · <a href="/regulacao-emocional/">Regulação emocional</a> · <a href="/terapia-act/">Terapia ACT</a> · <a href="/sindrome-de-burnout/">Síndrome de burnout</a></p>
 </main>
 <footer>Letícia Freitas · Psicóloga · CRP 03/21534</footer>
 </body></html>
