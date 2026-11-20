@@ -73,3 +73,7 @@ footer { text-align: center; font-size: .8rem; color: var(--mid); padding: 0 20p
 .post:hover h2 { color: var(--green-dark); text-decoration: underline; text-underline-offset: 4px; }
 .blog .related { margin: 56px 0 0; padding: 0; max-width: none; }
 @media (max-width: 900px) { .posts { grid-template-columns: 1fr; } }
+.top-nav { display:flex; align-items:center; gap:22px; }
+.top-nav > a:not(.btn) { color: var(--ink); text-decoration:none; font-weight:500; font-size:.95rem; }
+.top-nav > a:not(.btn):hover { color: var(--green); }
+@media (max-width: 520px) { .top-nav { gap:14px; } .top-nav .btn span { display:none; } .top-nav .btn { padding:11px 13px; } }

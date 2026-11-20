@@ -69,7 +69,8 @@ def build(p):
 <body>
 <header class="top">
   <a href="/" aria-label="Letícia Freitas Psicóloga, página inicial"><img src="/images/logo_leticia_dark.svg" alt="Letícia Freitas Psicóloga" width="140" height="34"></a>
-  <a class="btn" data-wa data-origem="{p['slug']}-topo" href="{wa}">{WA_ICON}<span>Agendar conversa</span></a>
+  <nav class="top-nav"><a href="/blog/">Conteúdos</a>
+  <a class="btn" data-wa data-origem="{p['slug']}-topo" href="{wa}">{WA_ICON}<span>Agendar conversa</span></a></nav>
 </header>
 
 <main>
@@ -138,7 +139,7 @@ def build_blog_index(arts):
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/tema.css?v={VERSION}">
 </head><body>
-<header class="top"><a href="/" aria-label="Letícia Freitas Psicóloga, página inicial"><img src="/images/logo_leticia_dark.svg" alt="Letícia Freitas Psicóloga" width="140" height="34"></a></header>
+<header class="top"><a href="/" aria-label="Letícia Freitas Psicóloga, página inicial"><img src="/images/logo_leticia_dark.svg" alt="Letícia Freitas Psicóloga" width="140" height="34"></a><nav class="top-nav"><a href="/blog/" aria-current="page">Conteúdos</a></nav></header>
 <main class="blog">
 <p class="crumb"><a href="/">Início</a> / Blog</p>
 <h1>Textos para entender <em>o que você sente</em></h1>

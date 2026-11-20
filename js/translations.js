@@ -13,6 +13,7 @@ const TRANSLATIONS = {
     'nav.how': 'Como funciona',
     'nav.europa': 'Atendimento na Europa',
     'nav.approaches': 'Abordagens',
+    'nav.blog': 'Conteúdos',
     'nav.contact': 'Contato',
     'nav.cta': 'Agendar consulta',
 
@@ -205,6 +206,7 @@ const TRANSLATIONS = {
     'nav.how': 'How it works',
     'nav.europa': 'Therapy in Europe',
     'nav.approaches': 'Approaches',
+    'nav.blog': 'Articles',
     'nav.contact': 'Contact',
     'nav.cta': 'Book a session',
 
