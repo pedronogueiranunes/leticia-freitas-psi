@@ -1929,3 +1929,8 @@ footer nav.ft-col a:hover { color: #fff; }
 @media (max-width: 899px) { .pc-media::before { opacity:1; } }
 @media (max-width: 900px) { .ix-media::before { opacity:1; } }
 @media (prefers-reduced-motion: reduce) { .ix-media::before, .pc-media::before { transition:none; } }
+
+/* Overlay mais leve: repouso só escurece o pé do card; hover sobe, mas a foto continua visível */
+.ix-media::after, .pc-media::after { background:linear-gradient(180deg, #1a2e2500 58%, #1a2e2559 78%, #1a2e25a6 100%); }
+.ix-media::before, .pc-media::before { background:linear-gradient(180deg, #1a2e2500 25%, #1a2e2540 50%, #1a2e2580 75%, #1a2e25b3 100%); }
+.ix-text h3, .pc-body h3, .ix-text p, .pc-body p { text-shadow:0 1px 12px rgba(10,25,18,.45); }
