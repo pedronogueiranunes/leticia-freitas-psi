@@ -1554,7 +1554,7 @@ footer {
 .ix-panel:focus-visible { outline: 2px solid var(--brown-btn); outline-offset: 4px; }
 .ix-media { position: absolute; inset: 0; margin: 0; background: var(--card-bg); }
 .ix-media img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 1s cubic-bezier(.16,1,.3,1); }
-.ix-media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, #1a2e2500 30%, #1a2e25d9 100%); }
+.ix-media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, #1a2e2500 50%, #1a2e2599 68%, #1a2e25e6 84%, #1a2e25f2 100%); transition: opacity .6s cubic-bezier(.16,1,.3,1); }
 .ix-text { position: absolute; left: 0; right: 0; bottom: 0; padding: 28px; z-index: 1; }
 .ix-text h3 { font-family: 'Playfair Display', serif; font-weight: 400; font-size: 1.25rem; line-height: 1.25; margin: 0 0 10px; color: #fff; }
 .ix-text p { font-size: .92rem; line-height: 1.72; color: #e3efe8; margin: 0; max-width: 42ch; max-height: 0; opacity: 0; overflow: hidden; transition: max-height .7s cubic-bezier(.16,1,.3,1), opacity .4s; }
@@ -1652,7 +1652,7 @@ article:focus-visible { outline:2px solid var(--brown-btn); outline-offset:4px; 
 .pc-cards { display:grid; gap:14px; }
 .pc-card { position:relative; min-height:420px; border-radius:28px; overflow:hidden; display:flex; align-items:flex-end; isolation:isolate; }
 .pc-media { position:absolute; inset:0; z-index:-1; }
-.pc-media::after { content:""; position:absolute; inset:0; background:linear-gradient(180deg,#1a2e2500 15%,#1a2e2599 45%,#1a2e25f2 100%); }
+.pc-media::after { content:""; position:absolute; inset:0; background:linear-gradient(180deg,#1a2e2500 42%,#1a2e2599 60%,#1a2e25e6 78%,#1a2e25f2 100%); transition: opacity .6s cubic-bezier(.16,1,.3,1); }
 .pc-body { padding:26px; color:#fff; }
 .pc-body h3 { color:#fff; }
 .pc-tag { color:#afe4d1; }
@@ -1857,19 +1857,19 @@ footer nav.ft-col a:hover { color: #fff; }
 .eu-head { margin-bottom:40px; }
 .eu-items { display:grid; gap:16px; }
 .eu-item { background:#f5faf6; border:1px solid var(--border-green); border-radius:28px; overflow:hidden; }
-.eu-media { aspect-ratio:16/10; }
-.eu-body { padding:24px 26px 28px; }
+.eu-media { aspect-ratio:16/11; }
+.eu-body { padding:20px 24px 26px; }
 @media (min-width: 900px) {
 .eu { padding:110px 60px; }
 .eu-head { display:grid; grid-template-columns:1.1fr 1fr; gap:56px; align-items:end; }
 .eu-head .eu-cta { grid-column:2; justify-self:start; }
 .eu-desc { grid-column:2; grid-row:1; margin:0; }
 .eu-title { grid-row:1 / span 2; margin:0; }
-.eu-items { grid-template-columns:1.3fr 1fr; grid-template-rows:1fr 1fr; gap:18px; }
-.eu-item:first-child { grid-row:span 2; display:flex; flex-direction:column; }
-.eu-item:first-child .eu-media { flex:1; aspect-ratio:auto; min-height:360px; }
-.eu-item:not(:first-child) { display:grid; grid-template-columns:200px 1fr; }
-.eu-item:not(:first-child) .eu-media { aspect-ratio:auto; }
+.eu-items { grid-template-columns:1fr 1fr; gap:18px; }
+.eu-item:first-child { grid-column:1/-1; display:grid; grid-template-columns:1.5fr 1fr; align-items:center; }
+.eu-item:first-child .eu-media { aspect-ratio:16/9; height:100%; }
+.eu-item:first-child .eu-body { padding:36px 40px; }
+.eu-item:first-child h3 { font-size:1.7rem; }
 }
 
 @media (prefers-reduced-motion: reduce) { .eu img { transition:none; } }
@@ -1881,3 +1881,35 @@ footer nav.ft-col a:hover { color: #fff; }
 }
 /* card tags sit on photos: give them their own dark pill so bright images can't wash them out */
 .pc-card .pc-tag { background: #1a2e25b3; padding: 5px 12px 5px 10px; border-radius: 50px; -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); }
+
+/* Photo cards: lighter overlay that recedes on hover; a soft text shadow carries the contrast */
+.ix-text, .pc-card .pc-body { text-shadow: 0 1px 2px #1a2e2573, 0 2px 20px #1a2e2599; }
+.ix-panel:hover .ix-media::after, .ix-panel:focus-visible .ix-media::after,
+
+@media (prefers-reduced-motion: reduce) { .ix-media::after, .pc-media::after { transition: none; } }
+
+/* Hero note: video-camera icon redraws on hover */
+.hero-note { display:flex; align-items:center; gap:14px; padding:12px 18px 12px 12px; cursor:default; transition:transform .5s cubic-bezier(.16,1,.3,1), box-shadow .5s cubic-bezier(.16,1,.3,1), background .4s; }
+.hn-text { display:flex; flex-direction:column; }
+.hn-text strong { display:block; color:var(--text-dark); font-weight:600; font-size:.88rem; }
+.hn-badge { flex-shrink:0; width:44px; height:44px; border-radius:14px; background:#e2f0e8; color:var(--brown-btn); display:inline-flex; align-items:center; justify-content:center; transition:background .4s, color .4s, transform .5s cubic-bezier(.16,1,.3,1); }
+.hn-ico { width:24px; height:24px; overflow:visible; }
+.hero-note:hover { transform:translateY(-4px); box-shadow:0 22px 40px -18px #1a2e2580; }
+.hero-note:hover .hn-badge { background:var(--brown-btn); color:#fff; }
+
+.hn-draw { stroke-dasharray:1; stroke-dashoffset:0; }
+.hero-note:hover .hn-draw { animation:hnDraw 1.1s cubic-bezier(.65,0,.35,1) both; }
+.hero-note:hover .hn-draw:nth-child(2) { animation-delay:.15s; }
+.hero-note:hover .hn-draw:nth-child(3) { animation-delay:.3s; }
+@keyframes hnDraw { from { stroke-dashoffset:1; } to { stroke-dashoffset:0; } }
+
+@media (prefers-reduced-motion: reduce) { .hero-note, .hero-note * { animation:none !important; transition:none !important; } }
+
+/* Hover: extra dark layer rises behind the (now longer) text; top of the photo stays light */
+.ix-media::before, .pc-media::before { content:""; position:absolute; inset:0; z-index:1; pointer-events:none; opacity:0; transition:opacity .6s cubic-bezier(.16,1,.3,1); background:linear-gradient(180deg, #1a2e2500 30%, #1a2e25a6 50%, #1a2e25e6 70%, #1a2e25f2 100%); }
+.ix-panel:hover .ix-media::before, .ix-panel:focus-visible .ix-media::before,
+.ix-panels:not(:hover):not(:focus-within) .ix-panel:first-child .ix-media::before,
+.pc-card:hover .pc-media::before, .pc-card:focus-visible .pc-media::before { opacity:1; }
+@media (max-width: 899px) { .pc-media::before { opacity:1; } }
+@media (max-width: 900px) { .ix-media::before { opacity:1; } }
+@media (prefers-reduced-motion: reduce) { .ix-media::before, .pc-media::before { transition:none; } }
