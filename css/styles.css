@@ -1950,3 +1950,6 @@ footer nav.ft-col a:hover { color: #fff; }
   .ix-panel { height: auto; min-height: 340px; }
 }
 @media (prefers-reduced-motion: reduce) { .ix-media img, .pc-media img { transition: none; } }
+@media (min-width: 901px) and (hover: hover) {
+  .ix-panels:not(:hover):not(:focus-within) .ix-panel:first-child .ix-media img { filter: none; }
+}
