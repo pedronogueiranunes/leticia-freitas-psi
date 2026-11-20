@@ -1627,3 +1627,11 @@ footer {
   .banner-consultorio { min-height: 480px; }
   .section-localizacao .espaco { padding: 0 16px; }
 }
+
+/* Ícones Lucide (substituem emojis) */
+.lucide { display: block; color: var(--brown-btn); }
+.card-icon, .forwho-dot, .online-icon { display: inline-flex; align-items: center; justify-content: center; }
+.forwho-dot .lucide { width: 16px; height: 16px; }
+.tag { display: inline-flex; align-items: center; gap: 8px; }
+.tag .lucide { width: 14px; height: 14px; color: currentColor; }
+.process-card.dark .lucide, [class*="dark"] .tag .lucide { color: currentColor; }
