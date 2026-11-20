@@ -1627,3 +1627,22 @@ footer {
   .banner-consultorio { min-height: 480px; }
   .section-localizacao .espaco { padding: 0 16px; }
 }
+
+/* Ícones Lucide (substituem emojis) */
+.lucide { display: block; color: var(--brown-btn); }
+.card-icon, .forwho-dot, .online-icon { display: inline-flex; align-items: center; justify-content: center; }
+.forwho-dot .lucide { width: 16px; height: 16px; }
+.tag { display: inline-flex; align-items: center; gap: 8px; }
+.tag .lucide { width: 14px; height: 14px; color: currentColor; }
+.process-card.dark .lucide, [class*="dark"] .tag .lucide { color: currentColor; }
+
+/* Cards com imagem */
+.cards-grid .card { padding: 0; overflow: hidden; display: flex; flex-direction: column; }
+.cards-grid .card > h3, .cards-grid .card > p { padding-left: 32px; padding-right: 32px; }
+.cards-grid .card > p { padding-bottom: 32px; }
+.card-media { margin: 0 0 24px; aspect-ratio: 16 / 10; overflow: hidden; background: var(--card-bg); }
+.card-media img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .8s cubic-bezier(.16,1,.3,1); }
+.card:hover .card-media img { transform: scale(1.03); }
+@media (max-width: 760px) { .cards-grid .card > h3, .cards-grid .card > p { padding-left: 22px; padding-right: 22px; } .cards-grid .card > p { padding-bottom: 24px; } }
+@media (prefers-reduced-motion: reduce) { .card-media img { transition: none; } }
+@media (min-width: 900px) { #online-europa .cards-grid { grid-template-columns: repeat(3, 1fr); max-width: 1200px; } }
