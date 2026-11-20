@@ -1965,3 +1965,10 @@ footer nav.ft-col a:hover { color: #fff; }
 @media (min-width: 901px) and (hover: hover) {
   .ix-panels:not(:hover):not(:focus-within) .ix-panel:first-child .ix-media::before { opacity: 0; }
 }
+
+/* Blur mais sutil; cards com foto mais altos no mobile */
+.ix-media::before, .pc-media::before { -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px); }
+@media (max-width: 900px) {
+  .ix-panel { min-height: 460px; }
+  .pc-card { min-height: 480px; }
+}
